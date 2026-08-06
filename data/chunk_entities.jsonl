@@ -1,0 +1,719 @@
+{"id": "iliad-01-000", "entities": {"achilles": 5, "agamemnon": 3, "apollo": 3, "chryses": 2, "hades": 1, "hera": 1, "menelaus": 1, "priam": 1, "thetis": 1, "zeus": 5}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-01-001", "entities": {"achilles": 2, "apollo": 4, "calchas": 1, "hera": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-01-002", "entities": {"achilles": 2, "agamemnon": 4, "apollo": 3, "calchas": 2, "chryses": 1, "clytemnestra": 1}, "ambiguous": {}}
+{"id": "iliad-01-003", "entities": {"achilles": 4, "agamemnon": 1, "chryseis": 1, "idomeneus": 1, "menelaus": 1, "odysseus": 1, "zeus": 1}, "ambiguous": {"Ajax": 2, "son of Atreus": 1}}
+{"id": "iliad-01-004", "entities": {"achilles": 3, "agamemnon": 1, "apollo": 1, "athena": 2, "briseis": 1, "chryseis": 1, "hera": 1, "zeus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-01-005", "entities": {"achilles": 3, "agamemnon": 2, "athena": 2, "hector": 1, "hera": 1, "zeus": 2}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-01-006", "entities": {"achilles": 4, "agamemnon": 3, "hector": 1, "nestor": 1, "polyphemus": 1, "priam": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-01-007", "entities": {"achilles": 6, "agamemnon": 3, "briseis": 1, "chryseis": 1, "odysseus": 1, "patroclus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-01-008", "entities": {"achilles": 3, "agamemnon": 5, "briseis": 2, "patroclus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-01-009", "entities": {"agamemnon": 4, "apollo": 4, "athena": 1, "chryseis": 1, "chryses": 1, "hera": 1, "menelaus": 1, "poseidon": 1, "zeus": 3}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-01-010", "entities": {"agamemnon": 2, "apollo": 2, "chryseis": 1, "chryses": 2, "odysseus": 2, "thetis": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-01-011", "entities": {"achilles": 1, "apollo": 2, "chryses": 2}, "ambiguous": {}}
+{"id": "iliad-01-012", "entities": {"achilles": 1, "agamemnon": 1, "hera": 1, "thetis": 2, "zeus": 7}, "ambiguous": {}}
+{"id": "iliad-01-013", "entities": {"achilles": 1, "hephaestus": 1, "hera": 5, "thetis": 2, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-01-014", "entities": {"apollo": 1, "hephaestus": 3, "hera": 3, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-02-000", "entities": {"achilles": 1, "agamemnon": 6, "hera": 2, "nestor": 2, "priam": 1, "zeus": 5}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-02-001", "entities": {"agamemnon": 1, "hera": 1, "nestor": 3, "zeus": 3}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-02-002", "entities": {"agamemnon": 3, "ares": 1, "hephaestus": 1, "hermes": 3, "priam": 1, "zeus": 6}, "ambiguous": {}}
+{"id": "iliad-02-003", "entities": {"agamemnon": 1, "athena": 2, "helen": 1, "hera": 1, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-02-004", "entities": {"agamemnon": 2, "cronus": 1, "helen": 1, "odysseus": 5, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-02-005", "entities": {"achilles": 3, "agamemnon": 2, "odysseus": 2}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-02-006", "entities": {"agamemnon": 3, "athena": 1, "calchas": 1, "menelaus": 1, "odysseus": 2, "telemachus": 1}, "ambiguous": {}}
+{"id": "iliad-02-007", "entities": {"calchas": 2, "cronus": 1, "priam": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-02-008", "entities": {"agamemnon": 2, "apollo": 1, "athena": 1, "helen": 1, "nestor": 2, "priam": 2, "zeus": 3}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-02-009", "entities": {"achilles": 1, "agamemnon": 2, "ajax_oileus": 1, "ajax_telamon": 1, "apollo": 1, "athena": 1, "diomedes": 1, "idomeneus": 1, "menelaus": 1, "nestor": 1, "odysseus": 1, "priam": 2, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-02-010", "entities": {"agamemnon": 3, "athena": 1, "hector": 1, "nestor": 1, "priam": 1, "zeus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-02-011", "entities": {"agamemnon": 1, "ares": 1, "poseidon": 1, "zeus": 3}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-02-012", "entities": {"ajax_oileus": 2, "ajax_telamon": 2, "ares": 3, "poseidon": 1}, "ambiguous": {}}
+{"id": "iliad-02-013", "entities": {"agamemnon": 3, "ares": 1, "athena": 1, "diomedes": 2, "menelaus": 1, "nestor": 1, "zeus": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-02-014", "entities": {"agamemnon": 2, "ares": 1, "helen": 1, "menelaus": 2, "nestor": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-02-015", "entities": {"achilles": 1, "ares": 2, "hercules": 3, "idomeneus": 2, "meriones": 1, "odysseus": 2, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-02-016", "entities": {"achilles": 4, "ares": 1, "briseis": 1, "hercules": 1}, "ambiguous": {}}
+{"id": "iliad-02-017", "entities": {"ajax_oileus": 1, "ares": 1, "machaon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-02-018", "entities": {"achilles": 3, "agamemnon": 2, "ajax_telamon": 1, "apollo": 1, "ares": 1, "iris": 3, "menelaus": 1, "priam": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-02-019", "entities": {"aeneas": 1, "anchises": 1, "antenor": 1, "aphrodite": 1, "apollo": 1, "ares": 1, "hector": 3, "pandarus": 1, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-02-020", "entities": {"achilles": 1, "ares": 1, "glaucus": 1, "sarpedon": 1}, "ambiguous": {}}
+{"id": "iliad-03-000", "entities": {"aphrodite": 1, "hector": 1, "helen": 2, "menelaus": 5, "paris": 9, "priam": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-03-001", "entities": {"agamemnon": 1, "aphrodite": 1, "hector": 4, "helen": 1, "menelaus": 2, "paris": 2}, "ambiguous": {}}
+{"id": "iliad-03-002", "entities": {"agamemnon": 2, "antenor": 2, "ares": 1, "hector": 1, "helen": 2, "iris": 1, "menelaus": 2, "paris": 2, "priam": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-03-003", "entities": {"antenor": 1, "ares": 2, "helen": 3, "iris": 1, "menelaus": 1, "paris": 1, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-03-004", "entities": {"agamemnon": 3, "antenor": 1, "helen": 2, "menelaus": 3, "odysseus": 6}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-03-005", "entities": {"antenor": 1, "helen": 2, "idomeneus": 1, "menelaus": 2, "paris": 1, "priam": 2}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-03-006", "entities": {"agamemnon": 1, "antenor": 1, "helen": 2, "menelaus": 3, "odysseus": 1, "paris": 3, "priam": 2, "zeus": 4}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-03-007", "entities": {"antenor": 1, "hades": 1, "hector": 2, "helen": 1, "menelaus": 3, "odysseus": 1, "paris": 4, "priam": 1, "zeus": 4}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-03-008", "entities": {"aphrodite": 2, "helen": 2, "menelaus": 1, "paris": 6, "zeus": 3}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-03-009", "entities": {"aphrodite": 1, "athena": 1, "helen": 3, "menelaus": 3, "paris": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-03-010", "entities": {"agamemnon": 1, "helen": 1, "menelaus": 1, "paris": 1}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-04-000", "entities": {"agamemnon": 1, "aphrodite": 1, "athena": 4, "diomedes": 1, "helen": 1, "hera": 4, "machaon": 1, "menelaus": 4, "odysseus": 1, "paris": 1, "priam": 4, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-04-001", "entities": {"antenor": 1, "athena": 4, "cronus": 2, "hera": 1, "pandarus": 1, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-04-002", "entities": {"antenor": 1, "apollo": 2, "athena": 1, "menelaus": 4, "pandarus": 2, "paris": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-04-003", "entities": {"agamemnon": 2, "menelaus": 4, "priam": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-04-004", "entities": {"agamemnon": 3, "helen": 1, "machaon": 4, "menelaus": 7, "priam": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-04-005", "entities": {"agamemnon": 2, "idomeneus": 2, "machaon": 1, "menelaus": 1, "meriones": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-04-006", "entities": {"agamemnon": 1, "ajax_oileus": 2, "ajax_telamon": 2, "apollo": 1, "athena": 1, "idomeneus": 2, "nestor": 1, "priam": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-04-007", "entities": {"agamemnon": 3, "nestor": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "iliad-04-008", "entities": {"agamemnon": 1, "athena": 1, "diomedes": 2, "odysseus": 4, "telemachus": 1, "tydeus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-04-009", "entities": {"agamemnon": 2, "athena": 1, "diomedes": 2, "tydeus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-04-010", "entities": {"antilochus": 1, "ares": 2, "athena": 1}, "ambiguous": {}}
+{"id": "iliad-04-011", "entities": {"ajax_telamon": 1, "odysseus": 3}, "ambiguous": {"Ajax": 3, "son of Priam": 2}}
+{"id": "iliad-04-012", "entities": {"achilles": 1, "apollo": 1, "athena": 1, "hector": 1, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-05-000", "entities": {"aphrodite": 1, "apollo": 1, "ares": 5, "athena": 3, "diomedes": 9, "hephaestus": 2, "hera": 1, "pandarus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-05-001", "entities": {"agamemnon": 2, "antenor": 1, "ares": 4, "artemis": 1, "athena": 2, "idomeneus": 3, "menelaus": 3, "meriones": 2, "paris": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-05-002", "entities": {"antenor": 1, "apollo": 1, "diomedes": 3}, "ambiguous": {}}
+{"id": "iliad-05-003", "entities": {"aphrodite": 1, "athena": 2, "diomedes": 5, "tydeus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-05-004", "entities": {"aeneas": 2, "diomedes": 3, "pandarus": 2, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-05-005", "entities": {"aeneas": 1, "agamemnon": 1, "hector": 1, "menelaus": 1, "tydeus": 1}, "ambiguous": {}}
+{"id": "iliad-05-006", "entities": {"aeneas": 3, "anchises": 1, "aphrodite": 1, "athena": 2, "diomedes": 8, "pandarus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-05-007", "entities": {"aeneas": 3, "anchises": 1, "ares": 1, "athena": 1, "diomedes": 3, "pandarus": 1, "tydeus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-05-008", "entities": {"aeneas": 2, "anchises": 1, "aphrodite": 2, "apollo": 1, "athena": 1, "diomedes": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-05-009", "entities": {"aeneas": 1, "aphrodite": 3, "apollo": 1, "ares": 3, "diomedes": 4, "iris": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-05-010", "entities": {"aphrodite": 1, "ares": 2, "athena": 3, "diomedes": 3, "hades": 3, "hera": 2, "hermes": 1, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-05-011", "entities": {"aeneas": 6, "apollo": 6, "ares": 5, "artemis": 1, "athena": 1, "diomedes": 4, "hector": 1, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-05-012", "entities": {"apollo": 1, "ares": 1, "athena": 1, "hector": 3, "sarpedon": 2}, "ambiguous": {}}
+{"id": "iliad-05-013", "entities": {"aeneas": 3, "agamemnon": 1, "ajax_oileus": 1, "ajax_telamon": 1, "apollo": 2, "ares": 2, "athena": 1, "diomedes": 1, "odysseus": 1, "priam": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-05-014", "entities": {"aeneas": 4, "agamemnon": 2, "antilochus": 5, "ares": 2, "hector": 1, "menelaus": 6, "nestor": 1}, "ambiguous": {}}
+{"id": "iliad-05-015", "entities": {"ajax_telamon": 1, "ares": 3, "diomedes": 2, "hector": 4, "hercules": 1, "priam": 1, "sarpedon": 1, "zeus": 1}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-05-016", "entities": {"athena": 1, "hades": 2, "hercules": 2, "odysseus": 1, "sarpedon": 7, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-05-017", "entities": {"ares": 4, "athena": 3, "cronus": 1, "hector": 4, "helenus": 1, "hera": 1, "menelaus": 1, "orestes": 1, "priam": 1, "sarpedon": 3, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-05-018", "entities": {"apollo": 1, "ares": 1, "athena": 1, "cronus": 1, "hera": 3, "zeus": 6}, "ambiguous": {}}
+{"id": "iliad-05-019", "entities": {"achilles": 1, "apollo": 1, "ares": 1, "athena": 2, "diomedes": 3, "hera": 3, "pandarus": 1, "tydeus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-05-020", "entities": {"aphrodite": 1, "ares": 5, "athena": 3, "diomedes": 6, "hades": 1, "hera": 1, "tydeus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-05-021", "entities": {"ares": 4, "athena": 3, "diomedes": 7, "hades": 1, "zeus": 5}, "ambiguous": {}}
+{"id": "iliad-05-022", "entities": {"ares": 2, "athena": 1, "hera": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-06-000", "entities": {"agamemnon": 1, "ajax_telamon": 1, "andromache": 1, "antilochus": 1, "diomedes": 3, "glaucus": 1, "hector": 1, "menelaus": 2, "nestor": 1, "odysseus": 1, "teucer": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-06-001", "entities": {"aeneas": 2, "agamemnon": 2, "ares": 1, "hector": 3, "helenus": 1, "menelaus": 3, "nestor": 1, "priam": 1}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-06-002", "entities": {"achilles": 1, "athena": 2, "diomedes": 3, "glaucus": 1, "hector": 3}, "ambiguous": {}}
+{"id": "iliad-06-003", "entities": {"aeolus": 1, "glaucus": 1, "thetis": 1, "tydeus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-06-004", "entities": {"ares": 1, "artemis": 1, "sarpedon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-06-005", "entities": {"ares": 1, "artemis": 1, "diomedes": 1, "glaucus": 1, "hector": 1, "priam": 2, "tydeus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-06-006", "entities": {"athena": 3, "diomedes": 1, "hades": 1, "hector": 2, "helen": 1, "paris": 2, "priam": 4, "zeus": 5}, "ambiguous": {}}
+{"id": "iliad-06-007", "entities": {"antenor": 1, "athena": 6, "diomedes": 1, "hector": 5, "hecuba": 1, "helen": 2, "paris": 4, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-06-008", "entities": {"andromache": 2, "hector": 4, "helen": 2, "paris": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-06-009", "entities": {"achilles": 1, "andromache": 3, "athena": 2, "hector": 6, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-06-010", "entities": {"achilles": 1, "agamemnon": 1, "ajax_oileus": 1, "ajax_telamon": 1, "artemis": 1, "diomedes": 1, "hades": 1, "hector": 3, "hecuba": 1, "idomeneus": 1, "menelaus": 1, "priam": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-06-011", "entities": {"hades": 1, "hector": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-06-012", "entities": {"hector": 3, "paris": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-07-000", "entities": {"agamemnon": 1, "apollo": 3, "athena": 2, "glaucus": 1, "hector": 5, "menelaus": 1, "paris": 2, "zeus": 3}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-07-001", "entities": {"agamemnon": 1, "apollo": 4, "athena": 2, "hector": 7, "helenus": 2, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-07-002", "entities": {"achilles": 1, "agamemnon": 1, "apollo": 2, "hector": 6, "menelaus": 3, "nestor": 1}, "ambiguous": {}}
+{"id": "iliad-07-003", "entities": {"agamemnon": 1, "ajax_oileus": 1, "ajax_telamon": 1, "apollo": 1, "ares": 1, "athena": 2, "diomedes": 2, "hades": 1, "hector": 2, "idomeneus": 1, "meriones": 1, "nestor": 1, "peleus": 1, "zeus": 1}, "ambiguous": {"son of Priam": 1}}
+{"id": "iliad-07-004", "entities": {"agamemnon": 2, "ajax_oileus": 1, "ajax_telamon": 1, "diomedes": 1, "hector": 2, "idomeneus": 1, "meriones": 1, "nestor": 2, "odysseus": 1, "zeus": 5}, "ambiguous": {"Ajax": 6}}
+{"id": "iliad-07-005", "entities": {"achilles": 1, "agamemnon": 1, "ajax_telamon": 2, "ares": 2, "hector": 4, "zeus": 1}, "ambiguous": {"Ajax": 4, "son of Priam": 1}}
+{"id": "iliad-07-006", "entities": {"ajax_telamon": 1, "apollo": 1, "hector": 5, "zeus": 1}, "ambiguous": {"Ajax": 6, "son of Priam": 2}}
+{"id": "iliad-07-007", "entities": {"agamemnon": 4, "ares": 1, "hades": 1, "nestor": 1, "priam": 1, "zeus": 2}, "ambiguous": {"Ajax": 5}}
+{"id": "iliad-07-008", "entities": {"agamemnon": 1, "antenor": 2, "ares": 1, "hades": 1, "helen": 2, "menelaus": 1, "nestor": 1, "paris": 2, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-07-009", "entities": {"agamemnon": 4, "ares": 1, "diomedes": 2, "helen": 1, "menelaus": 3, "paris": 3, "priam": 3}, "ambiguous": {}}
+{"id": "iliad-07-010", "entities": {"apollo": 1, "hera": 1, "poseidon": 2, "priam": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-07-011", "entities": {"agamemnon": 2, "apollo": 1, "menelaus": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-08-000", "entities": {"athena": 2, "hades": 1, "hector": 1, "hera": 2, "iris": 1, "zeus": 6}, "ambiguous": {}}
+{"id": "iliad-08-001", "entities": {"zeus": 1}, "ambiguous": {}}
+{"id": "iliad-08-002", "entities": {"aeneas": 1, "agamemnon": 1, "ajax_oileus": 1, "ajax_telamon": 1, "ares": 1, "diomedes": 4, "hector": 4, "helen": 1, "idomeneus": 1, "nestor": 6, "odysseus": 4, "paris": 1}, "ambiguous": {}}
+{"id": "iliad-08-003", "entities": {"diomedes": 5, "hector": 7, "nestor": 3, "tydeus": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-08-004", "entities": {"andromache": 1, "diomedes": 2, "hector": 2, "hephaestus": 1, "hera": 1, "nestor": 1, "poseidon": 2, "tydeus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-08-005", "entities": {"achilles": 1, "agamemnon": 1, "ajax_telamon": 1, "hector": 3, "hera": 2, "odysseus": 1, "poseidon": 3, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-08-006", "entities": {"agamemnon": 3, "ajax_oileus": 1, "ajax_telamon": 2, "ares": 1, "diomedes": 1, "idomeneus": 1, "menelaus": 2, "meriones": 1, "teucer": 5, "zeus": 3}, "ambiguous": {"Ajax": 2, "son of Telamon": 1}}
+{"id": "iliad-08-007", "entities": {"apollo": 1, "athena": 1, "hector": 6, "priam": 1, "teucer": 4, "zeus": 1}, "ambiguous": {"son of Atreus": 1, "son of Telamon": 1}}
+{"id": "iliad-08-008", "entities": {"ares": 1, "athena": 2, "hades": 1, "hector": 6, "hera": 1, "teucer": 1, "zeus": 4}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-08-009", "entities": {"achilles": 1, "athena": 1, "cronus": 1, "hades": 1, "hector": 1, "hera": 2, "iris": 2, "priam": 1, "thetis": 1, "zeus": 6}, "ambiguous": {}}
+{"id": "iliad-08-010", "entities": {"athena": 3, "hera": 5, "iris": 1, "poseidon": 1, "zeus": 9}, "ambiguous": {}}
+{"id": "iliad-08-011", "entities": {"achilles": 1, "athena": 2, "cronus": 1, "hector": 2, "hera": 4, "patroclus": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-08-012", "entities": {"diomedes": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-08-013", "entities": {"apollo": 1, "athena": 1, "hector": 1, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-09-000", "entities": {"achilles": 1, "agamemnon": 1, "cronus": 1, "diomedes": 1, "zeus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-09-001", "entities": {"agamemnon": 1, "diomedes": 1, "meriones": 1, "nestor": 2, "tydeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-09-002", "entities": {"achilles": 1, "agamemnon": 2, "briseis": 1, "meriones": 1, "nestor": 2, "zeus": 2}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-09-003", "entities": {"hades": 1, "helen": 1, "orestes": 1, "peleus": 1, "priam": 1}, "ambiguous": {}}
+{"id": "iliad-09-004", "entities": {"achilles": 6, "agamemnon": 3, "hades": 1, "nestor": 2, "odysseus": 4, "patroclus": 2, "phoenix": 1, "poseidon": 1, "zeus": 3}, "ambiguous": {"Ajax": 2, "son of Atreus": 1}}
+{"id": "iliad-09-005", "entities": {"achilles": 6, "agamemnon": 1, "automedon": 1, "hector": 1, "odysseus": 2, "patroclus": 4, "phoenix": 1, "zeus": 2}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-09-006", "entities": {"agamemnon": 3, "athena": 1, "hector": 1, "hera": 1, "peleus": 1, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-09-007", "entities": {"achilles": 1, "agamemnon": 3, "hector": 1, "helen": 1, "odysseus": 2, "orestes": 1, "peleus": 1, "priam": 1}, "ambiguous": {}}
+{"id": "iliad-09-008", "entities": {"agamemnon": 4, "hector": 2, "helen": 1, "menelaus": 1, "odysseus": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-09-009", "entities": {"aphrodite": 1, "athena": 1, "poseidon": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-09-010", "entities": {"achilles": 1, "aphrodite": 1, "apollo": 1, "athena": 1, "peleus": 2, "phoenix": 2, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-09-011", "entities": {"achilles": 1, "agamemnon": 1, "peleus": 1, "persephone": 1, "phoenix": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-09-012", "entities": {"achilles": 2, "peleus": 1, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-09-013", "entities": {"achilles": 1, "artemis": 1, "zeus": 5}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-09-014", "entities": {"apollo": 2, "hades": 1, "persephone": 1}, "ambiguous": {}}
+{"id": "iliad-09-015", "entities": {"achilles": 3, "ajax_telamon": 1, "odysseus": 2, "patroclus": 1, "phoenix": 2, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-09-016", "entities": {"achilles": 4, "agamemnon": 1, "hector": 1, "odysseus": 2, "patroclus": 2, "phoenix": 1, "priam": 1}, "ambiguous": {"Ajax": 1, "son of Atreus": 2, "son of Telamon": 1}}
+{"id": "iliad-09-017", "entities": {"achilles": 4, "agamemnon": 2, "diomedes": 1, "odysseus": 2, "phoenix": 1, "zeus": 1}, "ambiguous": {"Ajax": 1, "son of Atreus": 2}}
+{"id": "iliad-10-000", "entities": {"agamemnon": 3, "diomedes": 1, "hera": 1, "menelaus": 2, "nestor": 2, "odysseus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-10-001", "entities": {"agamemnon": 3, "hector": 2, "idomeneus": 2, "menelaus": 2, "meriones": 1, "nestor": 2, "zeus": 2}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-10-002", "entities": {"achilles": 1, "agamemnon": 5, "diomedes": 1, "hector": 2, "idomeneus": 1, "menelaus": 1, "nestor": 3, "odysseus": 1, "zeus": 2}, "ambiguous": {"Ajax": 2, "son of Atreus": 1}}
+{"id": "iliad-10-003", "entities": {"diomedes": 4, "nestor": 3, "odysseus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-10-004", "entities": {"diomedes": 2, "hector": 1, "meriones": 1, "nestor": 3}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-10-005", "entities": {"agamemnon": 1, "ajax_oileus": 1, "ajax_telamon": 1, "ares": 1, "athena": 1, "diomedes": 5, "menelaus": 3, "meriones": 1, "nestor": 2, "odysseus": 3, "tydeus": 1}, "ambiguous": {}}
+{"id": "iliad-10-006", "entities": {"athena": 2, "diomedes": 2, "meriones": 2, "odysseus": 4, "tydeus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-10-007", "entities": {"achilles": 1, "agamemnon": 1, "athena": 1, "hector": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-10-008", "entities": {"agamemnon": 1, "diomedes": 3, "hector": 3, "hera": 1, "odysseus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-10-009", "entities": {"achilles": 2, "athena": 1, "diomedes": 2, "hector": 2, "odysseus": 3}, "ambiguous": {}}
+{"id": "iliad-10-010", "entities": {"achilles": 1, "hector": 2, "odysseus": 2}, "ambiguous": {}}
+{"id": "iliad-10-011", "entities": {"athena": 2, "diomedes": 4, "odysseus": 2}, "ambiguous": {}}
+{"id": "iliad-10-012", "entities": {"apollo": 1, "athena": 4, "diomedes": 8, "odysseus": 3}, "ambiguous": {}}
+{"id": "iliad-10-013", "entities": {"athena": 3, "diomedes": 5, "hector": 2, "nestor": 4, "odysseus": 6, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-11-000", "entities": {"achilles": 2, "agamemnon": 1, "ajax_telamon": 1, "diomedes": 2, "hector": 1, "idomeneus": 1, "machaon": 1, "nestor": 3, "odysseus": 2, "paris": 1, "patroclus": 2, "zeus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-11-001", "entities": {"aeneas": 1, "agamemnon": 1, "antenor": 1, "athena": 1, "hades": 1, "hector": 3, "hera": 1, "polydamas": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-11-002", "entities": {"achilles": 1, "agamemnon": 5, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-11-003", "entities": {"achilles": 2, "agamemnon": 5, "helen": 1, "menelaus": 2, "odysseus": 1, "paris": 1}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-11-004", "entities": {"agamemnon": 6, "hector": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 3}}
+{"id": "iliad-11-005", "entities": {"agamemnon": 6, "antenor": 1, "hector": 6, "iris": 4, "zeus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-11-006", "entities": {"agamemnon": 8, "antenor": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-11-007", "entities": {"agamemnon": 4, "antenor": 1, "ares": 1, "hades": 1, "hector": 2, "hera": 1, "zeus": 2}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-11-008", "entities": {"ares": 1, "diomedes": 2, "hector": 7, "odysseus": 2, "tydeus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-11-009", "entities": {"apollo": 2, "diomedes": 7, "hector": 6, "odysseus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-11-010", "entities": {"diomedes": 3, "helen": 1, "odysseus": 2, "paris": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-11-011", "entities": {"athena": 1, "hades": 1, "odysseus": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-11-012", "entities": {"ajax_telamon": 2, "menelaus": 1, "odysseus": 5}, "ambiguous": {"Ajax": 3}}
+{"id": "iliad-11-013", "entities": {"ajax_telamon": 1, "hector": 4, "helen": 1, "idomeneus": 3, "machaon": 3, "menelaus": 1, "nestor": 5, "odysseus": 1, "paris": 1}, "ambiguous": {"Ajax": 4, "son of Priam": 1}}
+{"id": "iliad-11-014", "entities": {"ajax_telamon": 2, "hector": 1, "zeus": 2}, "ambiguous": {"Ajax": 3}}
+{"id": "iliad-11-015", "entities": {"achilles": 3, "ajax_telamon": 1, "ares": 1, "machaon": 2, "neleus": 1, "nestor": 2, "paris": 1, "patroclus": 3}, "ambiguous": {"Ajax": 3}}
+{"id": "iliad-11-016", "entities": {"achilles": 2, "machaon": 2, "nestor": 6, "patroclus": 5}, "ambiguous": {}}
+{"id": "iliad-11-017", "entities": {"achilles": 3, "agamemnon": 1, "diomedes": 2, "machaon": 1, "neleus": 2, "nestor": 1, "odysseus": 1, "patroclus": 1}, "ambiguous": {}}
+{"id": "iliad-11-018", "entities": {"athena": 2, "hercules": 1, "neleus": 5}, "ambiguous": {}}
+{"id": "iliad-11-019", "entities": {"athena": 4, "neleus": 1, "poseidon": 3, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-11-020", "entities": {"achilles": 6, "agamemnon": 1, "athena": 1, "nestor": 1, "odysseus": 1, "peleus": 3, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-11-021", "entities": {"achilles": 3, "hector": 1, "odysseus": 1, "patroclus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-11-022", "entities": {"achilles": 2, "machaon": 1, "nestor": 1, "patroclus": 1}, "ambiguous": {}}
+{"id": "iliad-12-000", "entities": {"achilles": 1, "apollo": 3, "hector": 3, "patroclus": 1, "poseidon": 3, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-12-001", "entities": {"hector": 5, "polydamas": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-12-002", "entities": {"aeneas": 2, "antenor": 1, "deiphobus": 1, "glaucus": 1, "hector": 4, "helenus": 1, "idomeneus": 1, "paris": 1, "polydamas": 3, "priam": 1, "sarpedon": 1}, "ambiguous": {}}
+{"id": "iliad-12-003", "entities": {"ares": 1, "idomeneus": 1, "orestes": 1}, "ambiguous": {}}
+{"id": "iliad-12-004", "entities": {"hector": 1, "orestes": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-12-005", "entities": {"ares": 1, "hector": 3, "orestes": 1, "polydamas": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-12-006", "entities": {"hector": 3, "polydamas": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-12-007", "entities": {"ajax_oileus": 1, "ajax_telamon": 1, "hector": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-12-008", "entities": {"glaucus": 2, "hector": 1, "sarpedon": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-12-009", "entities": {"ajax_oileus": 2, "ajax_telamon": 3, "glaucus": 1, "teucer": 2}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-12-010", "entities": {"ajax_oileus": 2, "ajax_telamon": 5, "glaucus": 3, "sarpedon": 2, "teucer": 4}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-12-011", "entities": {"glaucus": 1, "hector": 2, "sarpedon": 2, "teucer": 2, "zeus": 2}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-12-012", "entities": {"cronus": 1, "hector": 7, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-13-000", "entities": {"hector": 2, "idomeneus": 1, "poseidon": 4, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-13-001", "entities": {"ajax_oileus": 3, "ajax_telamon": 3, "calchas": 2, "hector": 3, "poseidon": 5, "zeus": 2}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-13-002", "entities": {"achilles": 1, "agamemnon": 2, "ajax_telamon": 1, "antilochus": 1, "hector": 2, "meriones": 1, "poseidon": 2, "teucer": 1}, "ambiguous": {}}
+{"id": "iliad-13-003", "entities": {"ajax_oileus": 1, "ajax_telamon": 1, "ares": 1, "athena": 1, "hector": 4, "hera": 1, "poseidon": 1}, "ambiguous": {}}
+{"id": "iliad-13-004", "entities": {"deiphobus": 4, "hector": 2, "hera": 1, "mentor": 1, "meriones": 2, "priam": 2, "teucer": 2}, "ambiguous": {}}
+{"id": "iliad-13-005", "entities": {"ajax_oileus": 3, "ajax_telamon": 2, "hector": 3, "idomeneus": 1, "poseidon": 1, "priam": 2, "teucer": 2}, "ambiguous": {"Ajax": 1, "son of Telamon": 1}}
+{"id": "iliad-13-006", "entities": {"idomeneus": 7, "meriones": 2, "poseidon": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-13-007", "entities": {"ares": 1, "deiphobus": 1, "idomeneus": 3, "meriones": 3}, "ambiguous": {}}
+{"id": "iliad-13-008", "entities": {"achilles": 1, "ajax_oileus": 1, "ajax_telamon": 2, "ares": 3, "hector": 2, "idomeneus": 5, "meriones": 4, "teucer": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-13-009", "entities": {"achilles": 1, "cronus": 1, "hector": 1, "idomeneus": 2, "poseidon": 2, "priam": 2, "thetis": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-13-010", "entities": {"antilochus": 2, "deiphobus": 2, "idomeneus": 6, "nestor": 1, "priam": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-13-011", "entities": {"anchises": 1, "antilochus": 1, "ares": 1, "deiphobus": 3, "hades": 1, "idomeneus": 4, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-13-012", "entities": {"aeneas": 5, "antilochus": 1, "deiphobus": 2, "idomeneus": 4, "meriones": 1, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-13-013", "entities": {"aeneas": 5, "ares": 3, "deiphobus": 2, "idomeneus": 4, "paris": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-13-014", "entities": {"aeneas": 1, "antilochus": 3, "ares": 1, "deiphobus": 2, "meriones": 2, "nestor": 1, "poseidon": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-13-015", "entities": {"antilochus": 2, "helenus": 4, "menelaus": 5, "meriones": 3, "poseidon": 1}, "ambiguous": {"son of Priam": 1}}
+{"id": "iliad-13-016", "entities": {"menelaus": 7, "zeus": 2}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-13-017", "entities": {"hector": 1, "menelaus": 2, "meriones": 1, "paris": 2, "poseidon": 1}, "ambiguous": {}}
+{"id": "iliad-13-018", "entities": {"ajax_oileus": 3, "ajax_telamon": 2, "hector": 2, "poseidon": 1}, "ambiguous": {"Ajax": 2, "son of Telamon": 1}}
+{"id": "iliad-13-019", "entities": {"hector": 4, "polydamas": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-13-020", "entities": {"deiphobus": 3, "hector": 2, "helen": 1, "helenus": 3, "paris": 4, "polydamas": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-13-021", "entities": {"apollo": 1, "ares": 1, "athena": 1, "hector": 3, "hera": 1, "zeus": 4}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-14-000", "entities": {"agamemnon": 4, "diomedes": 1, "hector": 1, "hera": 1, "machaon": 1, "nestor": 3, "odysseus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-14-001", "entities": {"achilles": 1, "agamemnon": 2, "hector": 1, "nestor": 5, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-14-002", "entities": {"agamemnon": 1, "diomedes": 1, "odysseus": 2, "tydeus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-14-003", "entities": {"achilles": 1, "agamemnon": 2, "hera": 1, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-14-004", "entities": {"aphrodite": 2, "athena": 1, "cronus": 1, "hephaestus": 1, "hera": 2, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-14-005", "entities": {"aphrodite": 3, "cronus": 2, "hera": 5, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-14-006", "entities": {"cronus": 1, "hephaestus": 1, "hera": 2, "hercules": 2, "zeus": 7}, "ambiguous": {}}
+{"id": "iliad-14-007", "entities": {"cronus": 1, "hera": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-14-008", "entities": {"hephaestus": 1, "hera": 3, "hercules": 1, "phoenix": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-14-009", "entities": {"achilles": 1, "agamemnon": 1, "diomedes": 1, "hector": 4, "hera": 2, "odysseus": 1, "poseidon": 4, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-14-010", "entities": {"agamemnon": 1, "ajax_telamon": 1, "diomedes": 1, "hector": 7, "odysseus": 1, "poseidon": 3, "zeus": 1}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-14-011", "entities": {"aeneas": 1, "ajax_oileus": 3, "glaucus": 1, "hector": 2, "polydamas": 2, "sarpedon": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-14-012", "entities": {"ajax_telamon": 1, "antenor": 2, "hades": 1, "hermes": 1, "polydamas": 6}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-14-013", "entities": {"ajax_oileus": 1, "ajax_telamon": 1, "antilochus": 1, "meriones": 1, "poseidon": 2, "teucer": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-15-000", "entities": {"apollo": 1, "hector": 4, "hera": 4, "hercules": 1, "poseidon": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-15-001", "entities": {"achilles": 5, "apollo": 2, "athena": 1, "hector": 4, "hera": 4, "iris": 2, "patroclus": 2, "poseidon": 3, "sarpedon": 1, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-15-002", "entities": {"ares": 2, "hera": 4, "zeus": 5}, "ambiguous": {}}
+{"id": "iliad-15-003", "entities": {"apollo": 2, "ares": 2, "athena": 1, "hera": 3, "iris": 4, "poseidon": 1, "zeus": 5}, "ambiguous": {}}
+{"id": "iliad-15-004", "entities": {"cronus": 1, "hades": 2, "iris": 2, "poseidon": 2, "zeus": 6}, "ambiguous": {}}
+{"id": "iliad-15-005", "entities": {"apollo": 3, "athena": 1, "cronus": 1, "hector": 3, "hephaestus": 1, "hera": 1, "hermes": 1, "iris": 2, "poseidon": 4, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-15-006", "entities": {"apollo": 3, "hades": 1, "hector": 5, "zeus": 2}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-15-007", "entities": {"ajax_telamon": 1, "apollo": 2, "ares": 1, "hector": 4, "hephaestus": 1, "idomeneus": 1, "meriones": 1, "teucer": 1, "zeus": 2}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-15-008", "entities": {"aeneas": 1, "apollo": 3, "hector": 3, "paris": 1, "polydamas": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-15-009", "entities": {"apollo": 3, "nestor": 2, "patroclus": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-15-010", "entities": {"achilles": 1, "athena": 1, "hector": 5}, "ambiguous": {"Ajax": 7}}
+{"id": "iliad-15-011", "entities": {"ajax_telamon": 1, "apollo": 1, "hector": 5, "polydamas": 2, "teucer": 5, "zeus": 2}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-15-012", "entities": {"ajax_telamon": 1, "hector": 2, "teucer": 2, "zeus": 3}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-15-013", "entities": {"antenor": 1, "apollo": 1, "hector": 2, "menelaus": 1, "polydamas": 2, "priam": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-15-014", "entities": {"ajax_telamon": 1, "antilochus": 4, "hector": 2, "menelaus": 1, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-15-015", "entities": {"achilles": 1, "antilochus": 3, "ares": 1, "athena": 1, "hector": 6, "nestor": 1, "thetis": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-15-016", "entities": {"hector": 5, "hercules": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-15-017", "entities": {"athena": 1, "hector": 3, "nestor": 1, "zeus": 1}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-15-018", "entities": {"hector": 4, "zeus": 3}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-15-019", "entities": {"ares": 1, "hector": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-16-000", "entities": {"achilles": 6, "agamemnon": 1, "diomedes": 2, "hector": 1, "odysseus": 1, "patroclus": 5, "peleus": 2, "thetis": 1}, "ambiguous": {}}
+{"id": "iliad-16-001", "entities": {"achilles": 1, "agamemnon": 2, "patroclus": 1, "peleus": 1, "thetis": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-16-002", "entities": {"apollo": 2, "athena": 1, "diomedes": 2, "hector": 1, "hera": 1, "patroclus": 1, "zeus": 2}, "ambiguous": {"Ajax": 1, "son of Atreus": 1}}
+{"id": "iliad-16-003", "entities": {"achilles": 4, "automedon": 2, "hector": 1, "patroclus": 2, "peleus": 1, "zeus": 1}, "ambiguous": {"Ajax": 3}}
+{"id": "iliad-16-004", "entities": {"achilles": 4, "artemis": 1, "automedon": 1, "hermes": 1, "peleus": 1}, "ambiguous": {}}
+{"id": "iliad-16-005", "entities": {"achilles": 4, "automedon": 1, "patroclus": 2, "phoenix": 1, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-16-006", "entities": {"achilles": 1, "hector": 1, "patroclus": 2, "zeus": 5}, "ambiguous": {}}
+{"id": "iliad-16-007", "entities": {"achilles": 4, "agamemnon": 3, "patroclus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-16-008", "entities": {"ajax_oileus": 1, "antilochus": 2, "menelaus": 1, "nestor": 2, "patroclus": 1, "sarpedon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-16-009", "entities": {"hector": 2, "idomeneus": 1, "meriones": 1, "zeus": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-16-010", "entities": {"hector": 3, "patroclus": 4, "peleus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-16-011", "entities": {"cronus": 1, "hera": 1, "patroclus": 6, "sarpedon": 2}, "ambiguous": {}}
+{"id": "iliad-16-012", "entities": {"automedon": 1, "hera": 1, "patroclus": 6, "sarpedon": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-16-013", "entities": {"apollo": 1, "glaucus": 3, "patroclus": 4, "sarpedon": 6, "teucer": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-16-014", "entities": {"aeneas": 1, "ajax_oileus": 2, "ajax_telamon": 2, "apollo": 1, "ares": 1, "glaucus": 1, "hector": 3, "patroclus": 3, "polydamas": 1, "sarpedon": 6, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-16-015", "entities": {"achilles": 1, "ajax_oileus": 1, "ajax_telamon": 1, "glaucus": 2, "hector": 2, "patroclus": 2, "peleus": 1, "sarpedon": 3, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-16-016", "entities": {"aeneas": 4, "ares": 1, "glaucus": 1, "hades": 1, "meriones": 7, "patroclus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-16-017", "entities": {"achilles": 2, "apollo": 2, "hector": 3, "patroclus": 2, "sarpedon": 4, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-16-018", "entities": {"achilles": 1, "apollo": 5, "automedon": 1, "patroclus": 5, "sarpedon": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-16-019", "entities": {"achilles": 1, "apollo": 7, "hector": 8, "hecuba": 1, "patroclus": 7, "zeus": 1}, "ambiguous": {"son of Priam": 1}}
+{"id": "iliad-16-020", "entities": {"hector": 3, "patroclus": 5}, "ambiguous": {}}
+{"id": "iliad-16-021", "entities": {"achilles": 1, "apollo": 3, "ares": 1, "hector": 2, "patroclus": 7}, "ambiguous": {}}
+{"id": "iliad-16-022", "entities": {"achilles": 1, "apollo": 1, "hector": 6, "patroclus": 6, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-16-023", "entities": {"achilles": 2, "automedon": 1, "hades": 1, "hector": 1, "patroclus": 1, "peleus": 1, "thetis": 1}, "ambiguous": {}}
+{"id": "iliad-17-000", "entities": {"menelaus": 11, "patroclus": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-17-001", "entities": {"achilles": 1, "apollo": 1, "hector": 3, "menelaus": 7, "patroclus": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-17-002", "entities": {"achilles": 3, "ajax_telamon": 1, "apollo": 1, "hector": 7, "menelaus": 4, "patroclus": 4}, "ambiguous": {"Ajax": 3, "son of Atreus": 1}}
+{"id": "iliad-17-003", "entities": {"glaucus": 1, "hector": 4, "menelaus": 3, "patroclus": 4, "priam": 1, "sarpedon": 2}, "ambiguous": {"Ajax": 4}}
+{"id": "iliad-17-004", "entities": {"achilles": 4, "glaucus": 1, "hector": 3, "patroclus": 2, "peleus": 1, "zeus": 3}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-17-005", "entities": {"achilles": 2, "ajax_telamon": 1, "andromache": 1, "ares": 1, "glaucus": 1, "hector": 2, "menelaus": 2, "patroclus": 2, "zeus": 1}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-17-006", "entities": {"achilles": 1, "agamemnon": 1, "ajax_oileus": 1, "ajax_telamon": 1, "ares": 1, "hector": 1, "idomeneus": 1, "menelaus": 2, "meriones": 1, "patroclus": 4, "zeus": 2}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-17-007", "entities": {"achilles": 1, "ajax_telamon": 1, "hector": 3, "patroclus": 2}, "ambiguous": {"Ajax": 5, "son of Telamon": 1}}
+{"id": "iliad-17-008", "entities": {"aeneas": 5, "apollo": 3, "hector": 3, "patroclus": 2, "zeus": 3}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-17-009", "entities": {"achilles": 1, "antilochus": 1, "nestor": 1, "patroclus": 3}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-17-010", "entities": {"achilles": 1, "ares": 1, "athena": 1, "hector": 1, "patroclus": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-17-011", "entities": {"automedon": 3, "hector": 3, "peleus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-17-012", "entities": {"aeneas": 4, "ajax_oileus": 2, "ajax_telamon": 2, "automedon": 4, "hector": 5, "menelaus": 2, "patroclus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-17-013", "entities": {"aeneas": 2, "ajax_oileus": 3, "ajax_telamon": 3, "ares": 2, "athena": 1, "automedon": 2, "hector": 3, "menelaus": 2, "patroclus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-17-014", "entities": {"achilles": 1, "apollo": 2, "athena": 4, "hector": 5, "menelaus": 8, "patroclus": 3, "phoenix": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-17-015", "entities": {"apollo": 1, "hector": 7, "idomeneus": 5, "menelaus": 1, "meriones": 2, "polydamas": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-17-016", "entities": {"achilles": 2, "antilochus": 1, "hector": 1, "idomeneus": 2, "menelaus": 5, "meriones": 1, "nestor": 1, "patroclus": 1, "zeus": 5}, "ambiguous": {"Ajax": 3}}
+{"id": "iliad-17-017", "entities": {"achilles": 3, "ajax_oileus": 2, "ajax_telamon": 2, "antilochus": 3, "hector": 1, "menelaus": 7, "meriones": 2, "nestor": 1, "patroclus": 4}, "ambiguous": {}}
+{"id": "iliad-17-018", "entities": {"achilles": 1, "ajax_oileus": 2, "ajax_telamon": 2, "antilochus": 2, "hector": 2, "menelaus": 4, "meriones": 3, "patroclus": 3}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-17-019", "entities": {"aeneas": 3, "ajax_oileus": 2, "ajax_telamon": 2, "hector": 2, "menelaus": 1, "meriones": 1, "patroclus": 1}, "ambiguous": {}}
+{"id": "iliad-18-000", "entities": {"achilles": 6, "antilochus": 2, "hector": 2, "hephaestus": 1, "nereus": 1, "nestor": 1, "patroclus": 4, "peleus": 1, "thetis": 2}, "ambiguous": {}}
+{"id": "iliad-18-001", "entities": {"achilles": 2, "nereus": 1, "patroclus": 1, "peleus": 1, "thetis": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-18-002", "entities": {"achilles": 2, "agamemnon": 1, "hector": 5, "hera": 1, "hercules": 1, "patroclus": 4, "peleus": 2, "thetis": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-18-003", "entities": {"ajax_oileus": 1, "ajax_telamon": 1, "ares": 1, "hector": 5, "hephaestus": 2, "hera": 1, "hercules": 1, "patroclus": 1, "thetis": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-18-004", "entities": {"achilles": 4, "ajax_oileus": 2, "ajax_telamon": 2, "ares": 1, "hector": 7, "hera": 2, "iris": 3, "patroclus": 4, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-18-005", "entities": {"achilles": 5, "ajax_telamon": 1, "athena": 2, "hephaestus": 1, "iris": 2, "patroclus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-18-006", "entities": {"achilles": 5, "agamemnon": 1, "hector": 1, "hera": 1, "patroclus": 1, "polydamas": 1}, "ambiguous": {}}
+{"id": "iliad-18-007", "entities": {"achilles": 2, "cronus": 1, "hector": 1, "polydamas": 1, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-18-008", "entities": {"achilles": 4, "athena": 1, "hector": 3, "patroclus": 3, "peleus": 1, "polydamas": 1, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-18-009", "entities": {"achilles": 3, "hephaestus": 1, "hera": 3, "patroclus": 2, "thetis": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-18-010", "entities": {"hephaestus": 2, "thetis": 8}, "ambiguous": {}}
+{"id": "iliad-18-011", "entities": {"achilles": 1, "agamemnon": 1, "apollo": 1, "hector": 1, "hephaestus": 1, "patroclus": 2, "peleus": 2, "thetis": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-18-012", "entities": {"hephaestus": 2}, "ambiguous": {}}
+{"id": "iliad-18-013", "entities": {"ares": 1, "athena": 1}, "ambiguous": {}}
+{"id": "iliad-18-014", "entities": {}, "ambiguous": {}}
+{"id": "iliad-18-015", "entities": {"achilles": 1, "hephaestus": 1}, "ambiguous": {}}
+{"id": "iliad-19-000", "entities": {"achilles": 4, "agamemnon": 2, "hephaestus": 2, "patroclus": 3, "thetis": 2}, "ambiguous": {}}
+{"id": "iliad-19-001", "entities": {"achilles": 4, "agamemnon": 2, "antenor": 1, "ares": 2, "artemis": 1, "briseis": 1, "diomedes": 1, "hector": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "iliad-19-002", "entities": {"achilles": 2, "hera": 4, "hercules": 1, "zeus": 7}, "ambiguous": {}}
+{"id": "iliad-19-003", "entities": {"achilles": 3, "agamemnon": 1, "hector": 1, "odysseus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-19-004", "entities": {"achilles": 3, "agamemnon": 4, "briseis": 1, "hector": 2, "laertes": 1, "zeus": 1}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-19-005", "entities": {"achilles": 2, "agamemnon": 4, "briseis": 1, "meriones": 1, "nestor": 1, "odysseus": 2, "patroclus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-19-006", "entities": {"achilles": 4, "agamemnon": 2, "aphrodite": 1, "briseis": 3, "patroclus": 3, "zeus": 3}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-19-007", "entities": {"achilles": 3, "agamemnon": 1, "helen": 1, "idomeneus": 1, "menelaus": 1, "nestor": 1, "odysseus": 1, "patroclus": 3, "peleus": 1, "phoenix": 1}, "ambiguous": {}}
+{"id": "iliad-19-008", "entities": {"achilles": 2, "athena": 3, "hephaestus": 1, "peleus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-19-009", "entities": {"achilles": 5, "automedon": 2, "hector": 1, "helios": 2, "hephaestus": 1, "hera": 1, "patroclus": 2, "peleus": 1}, "ambiguous": {}}
+{"id": "iliad-19-010", "entities": {"achilles": 1, "hector": 1, "patroclus": 1}, "ambiguous": {}}
+{"id": "iliad-20-000", "entities": {"achilles": 4, "athena": 1, "hephaestus": 2, "hera": 1, "hercules": 1, "hermes": 1, "poseidon": 4, "zeus": 8}, "ambiguous": {}}
+{"id": "iliad-20-001", "entities": {"achilles": 2, "aphrodite": 1, "apollo": 3, "ares": 3, "artemis": 2, "athena": 3, "hades": 1, "hephaestus": 2, "hera": 2, "hermes": 2, "poseidon": 5}, "ambiguous": {}}
+{"id": "iliad-20-002", "entities": {"achilles": 8, "aeneas": 4, "aphrodite": 2, "apollo": 4, "artemis": 1, "athena": 2, "hector": 2, "hephaestus": 1, "hera": 1, "hermes": 1, "poseidon": 1, "thetis": 1, "zeus": 4}, "ambiguous": {"old man of the sea": 1, "son of Priam": 1}}
+{"id": "iliad-20-003", "entities": {"achilles": 5, "aeneas": 2, "apollo": 3, "ares": 2, "athena": 2, "hera": 2, "hercules": 1, "poseidon": 4}, "ambiguous": {}}
+{"id": "iliad-20-004", "entities": {"achilles": 4, "aeneas": 5, "apollo": 1, "ares": 1, "athena": 1, "poseidon": 1, "priam": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-20-005", "entities": {"aeneas": 1, "anchises": 1, "aphrodite": 1, "ares": 1, "athena": 1, "peleus": 2, "priam": 1, "thetis": 1, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-20-006", "entities": {"achilles": 4, "aeneas": 7, "anchises": 1, "ares": 1, "hector": 1, "priam": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-20-007", "entities": {"achilles": 10, "aeneas": 9, "apollo": 2, "athena": 1, "hades": 1, "hera": 1, "poseidon": 3, "priam": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-20-008", "entities": {"achilles": 5, "aeneas": 4, "ares": 1, "athena": 1, "hades": 1, "poseidon": 1}, "ambiguous": {}}
+{"id": "iliad-20-009", "entities": {"achilles": 7, "apollo": 1, "ares": 1, "athena": 1, "hector": 4}, "ambiguous": {}}
+{"id": "iliad-20-010", "entities": {"achilles": 6, "antenor": 1, "hector": 1}, "ambiguous": {"son of Priam": 1}}
+{"id": "iliad-20-011", "entities": {"achilles": 5, "apollo": 2, "athena": 1, "hector": 4, "peleus": 1}, "ambiguous": {}}
+{"id": "iliad-20-012", "entities": {"achilles": 6}, "ambiguous": {}}
+{"id": "iliad-20-013", "entities": {"achilles": 3}, "ambiguous": {}}
+{"id": "iliad-21-000", "entities": {"achilles": 5, "hector": 1, "hera": 1, "patroclus": 2, "zeus": 1}, "ambiguous": {"son of Priam": 1}}
+{"id": "iliad-21-001", "entities": {"achilles": 7, "hades": 1}, "ambiguous": {"son of Priam": 1}}
+{"id": "iliad-21-002", "entities": {"achilles": 3, "hector": 1, "patroclus": 2, "priam": 2, "zeus": 1}, "ambiguous": {"son of Priam": 1}}
+{"id": "iliad-21-003", "entities": {"achilles": 7, "patroclus": 1}, "ambiguous": {}}
+{"id": "iliad-21-004", "entities": {"achilles": 11, "cronus": 1, "peleus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-21-005", "entities": {"achilles": 3, "hector": 1, "peleus": 1, "zeus": 7}, "ambiguous": {}}
+{"id": "iliad-21-006", "entities": {"achilles": 6, "apollo": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-21-007", "entities": {"achilles": 2, "apollo": 1, "athena": 3, "hector": 2, "peleus": 1, "poseidon": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-21-008", "entities": {"achilles": 4, "athena": 1, "hephaestus": 1, "hera": 1, "priam": 1}, "ambiguous": {}}
+{"id": "iliad-21-009", "entities": {"achilles": 2, "hephaestus": 6, "hera": 3}, "ambiguous": {}}
+{"id": "iliad-21-010", "entities": {"aphrodite": 1, "ares": 4, "athena": 2, "diomedes": 2, "hephaestus": 3, "hera": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-21-011", "entities": {"aphrodite": 4, "apollo": 3, "ares": 3, "athena": 3, "hera": 2, "poseidon": 1, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-21-012", "entities": {"apollo": 2, "artemis": 3, "hera": 1, "poseidon": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-21-013", "entities": {"achilles": 4, "apollo": 1, "artemis": 2, "hera": 1, "hermes": 1, "priam": 1, "zeus": 4}, "ambiguous": {}}
+{"id": "iliad-21-014", "entities": {"achilles": 5, "antenor": 1, "apollo": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-21-015", "entities": {"achilles": 8, "antenor": 1, "apollo": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-22-000", "entities": {"achilles": 6, "apollo": 1, "hector": 3, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-22-001", "entities": {"achilles": 3, "hades": 1, "hector": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-002", "entities": {"achilles": 3, "hector": 6, "polydamas": 1}, "ambiguous": {}}
+{"id": "iliad-22-003", "entities": {"achilles": 5, "ares": 1, "hector": 3, "helen": 1, "paris": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-004", "entities": {"achilles": 4, "athena": 2, "hector": 3, "priam": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-005", "entities": {"achilles": 10, "apollo": 3, "athena": 3, "deiphobus": 1, "hades": 1, "hector": 10, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-006", "entities": {"achilles": 5, "ares": 1, "athena": 3, "deiphobus": 2, "hector": 3, "hecuba": 1, "priam": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-007", "entities": {"achilles": 4, "apollo": 1, "ares": 1, "athena": 3, "deiphobus": 2, "hector": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-22-008", "entities": {"achilles": 6, "apollo": 1, "athena": 1, "deiphobus": 1, "hector": 6, "hephaestus": 1, "patroclus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-009", "entities": {"achilles": 2, "apollo": 1, "hades": 1, "hector": 4, "paris": 1, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-010", "entities": {"achilles": 1, "hades": 1, "hector": 7, "patroclus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-22-011", "entities": {"achilles": 1, "athena": 1, "hades": 1, "hector": 3, "hecuba": 1, "peleus": 1, "priam": 1}, "ambiguous": {}}
+{"id": "iliad-22-012", "entities": {"achilles": 2, "aphrodite": 1, "athena": 1, "hector": 5, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-22-013", "entities": {"hades": 1, "hector": 3, "priam": 1}, "ambiguous": {}}
+{"id": "iliad-22-014", "entities": {"hector": 1}, "ambiguous": {}}
+{"id": "iliad-23-000", "entities": {"achilles": 5, "agamemnon": 2, "hades": 1, "hector": 2, "hephaestus": 1, "patroclus": 5, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-23-001", "entities": {"achilles": 3, "agamemnon": 2, "hades": 3, "hector": 1, "patroclus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-23-002", "entities": {"achilles": 4, "agamemnon": 1, "hades": 2, "idomeneus": 1, "meriones": 1, "patroclus": 1, "peleus": 1}, "ambiguous": {}}
+{"id": "iliad-23-003", "entities": {"achilles": 5, "hades": 1, "idomeneus": 1, "meriones": 1, "patroclus": 3, "peleus": 1}, "ambiguous": {}}
+{"id": "iliad-23-004", "entities": {"achilles": 4, "agamemnon": 2, "aphrodite": 1, "apollo": 1, "hades": 1, "hector": 4, "patroclus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-23-005", "entities": {"achilles": 4, "apollo": 1, "hector": 1, "iris": 3, "patroclus": 3}, "ambiguous": {}}
+{"id": "iliad-23-006", "entities": {"achilles": 3, "hades": 1, "patroclus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-23-007", "entities": {"achilles": 1, "aeneas": 2, "agamemnon": 2, "antilochus": 1, "apollo": 1, "diomedes": 2, "menelaus": 3, "nestor": 2, "peleus": 1, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-23-008", "entities": {"achilles": 1, "antilochus": 2, "nestor": 3, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-23-009", "entities": {"achilles": 3, "antilochus": 1, "diomedes": 2, "menelaus": 2, "meriones": 2, "nestor": 2, "phoenix": 1}, "ambiguous": {}}
+{"id": "iliad-23-010", "entities": {"antilochus": 1, "apollo": 2, "athena": 3, "diomedes": 7, "menelaus": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-23-011", "entities": {"antilochus": 5, "athena": 1, "diomedes": 2, "menelaus": 3, "nestor": 1}, "ambiguous": {"son of Atreus": 2}}
+{"id": "iliad-23-012", "entities": {"ajax_oileus": 2, "diomedes": 2, "idomeneus": 3}, "ambiguous": {"Ajax": 1}}
+{"id": "iliad-23-013", "entities": {"achilles": 1, "agamemnon": 3, "ajax_oileus": 1, "antilochus": 2, "diomedes": 2, "idomeneus": 1, "menelaus": 3, "neleus": 1}, "ambiguous": {"Ajax": 2}}
+{"id": "iliad-23-014", "entities": {"achilles": 5, "agamemnon": 1, "antilochus": 4, "automedon": 1, "diomedes": 1, "idomeneus": 1, "menelaus": 2, "meriones": 1, "nestor": 1}, "ambiguous": {}}
+{"id": "iliad-23-015", "entities": {"antilochus": 6, "menelaus": 4, "nestor": 1, "poseidon": 1}, "ambiguous": {}}
+{"id": "iliad-23-016", "entities": {"achilles": 1, "antilochus": 3, "meriones": 1, "nestor": 2, "patroclus": 1}, "ambiguous": {}}
+{"id": "iliad-23-017", "entities": {"achilles": 1, "apollo": 1, "nestor": 1}, "ambiguous": {}}
+{"id": "iliad-23-018", "entities": {"achilles": 1, "ajax_telamon": 2, "diomedes": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "iliad-23-019", "entities": {"achilles": 3, "odysseus": 8, "patroclus": 1, "priam": 1, "zeus": 1}, "ambiguous": {"Ajax": 5}}
+{"id": "iliad-23-020", "entities": {"achilles": 3, "ajax_oileus": 2, "antilochus": 2, "athena": 3, "nestor": 1, "odysseus": 6, "patroclus": 2, "priam": 1}, "ambiguous": {"Ajax": 4}}
+{"id": "iliad-23-021", "entities": {"achilles": 7, "ajax_telamon": 2, "antilochus": 3, "diomedes": 5, "odysseus": 1, "patroclus": 1, "sarpedon": 1}, "ambiguous": {"Ajax": 3}}
+{"id": "iliad-23-022", "entities": {"achilles": 3, "ajax_telamon": 2, "apollo": 2, "ares": 1, "idomeneus": 1, "meriones": 1, "teucer": 2}, "ambiguous": {}}
+{"id": "iliad-23-023", "entities": {"achilles": 2, "agamemnon": 2, "apollo": 3, "idomeneus": 1, "meriones": 6, "teucer": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-24-000", "entities": {"achilles": 3, "apollo": 2, "hector": 5, "hera": 1, "hermes": 2, "paris": 1, "patroclus": 2, "poseidon": 1, "priam": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-24-001", "entities": {"achilles": 8, "hector": 5, "hera": 2, "peleus": 1, "priam": 2, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-24-002", "entities": {"achilles": 2, "athena": 1, "hector": 1, "hera": 1, "hermes": 2, "iris": 3, "priam": 1, "thetis": 5, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-24-003", "entities": {"achilles": 4, "hector": 2, "hermes": 2, "iris": 3, "priam": 2, "thetis": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-24-004", "entities": {"achilles": 8, "hector": 1, "hermes": 2, "iris": 1, "priam": 3, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-24-005", "entities": {"achilles": 4, "hector": 1, "hecuba": 1, "iris": 1, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-24-006", "entities": {"achilles": 1, "deiphobus": 1, "hades": 1, "hector": 2, "helenus": 1, "nestor": 1, "paris": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-24-007", "entities": {"ares": 1, "hector": 2, "hecuba": 1, "nestor": 1, "priam": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-24-008", "entities": {"achilles": 1, "priam": 1, "zeus": 5}, "ambiguous": {}}
+{"id": "iliad-24-009", "entities": {"achilles": 1, "hermes": 5, "priam": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-24-010", "entities": {"achilles": 1, "hector": 1, "hermes": 2, "priam": 2}, "ambiguous": {"son of Atreus": 1}}
+{"id": "iliad-24-011", "entities": {"achilles": 8, "hermes": 2, "priam": 1}, "ambiguous": {}}
+{"id": "iliad-24-012", "entities": {"achilles": 6, "hermes": 5, "priam": 2}, "ambiguous": {}}
+{"id": "iliad-24-013", "entities": {"achilles": 6, "ares": 2, "automedon": 1, "hector": 1, "priam": 4}, "ambiguous": {}}
+{"id": "iliad-24-014", "entities": {"achilles": 5, "hector": 1, "patroclus": 1, "peleus": 1, "priam": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "iliad-24-015", "entities": {"achilles": 2, "automedon": 1, "hector": 2, "patroclus": 1, "priam": 3, "zeus": 2}, "ambiguous": {"old man of the sea": 1}}
+{"id": "iliad-24-016", "entities": {"achilles": 5, "apollo": 1, "artemis": 1, "automedon": 1, "hades": 1, "hector": 2, "patroclus": 2, "priam": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "iliad-24-017", "entities": {"achilles": 6, "agamemnon": 1, "automedon": 1, "priam": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-24-018", "entities": {"achilles": 5, "agamemnon": 2, "briseis": 1, "hector": 2, "hermes": 1, "priam": 6}, "ambiguous": {}}
+{"id": "iliad-24-019", "entities": {"agamemnon": 1, "aphrodite": 1, "hector": 3, "hermes": 2, "priam": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "iliad-24-020", "entities": {"achilles": 1, "andromache": 1, "apollo": 1, "hector": 4, "hecuba": 1, "helen": 1}, "ambiguous": {}}
+{"id": "iliad-24-021", "entities": {"achilles": 1, "hector": 4, "helen": 1, "paris": 1, "priam": 3}, "ambiguous": {}}
+{"id": "odyssey-01-000", "entities": {"aegisthus": 2, "agamemnon": 3, "calypso": 1, "helios": 1, "hermes": 1, "odysseus": 1, "orestes": 2, "poseidon": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-01-001", "entities": {"aegisthus": 3, "agamemnon": 2, "athena": 2, "calypso": 1, "hermes": 3, "odysseus": 7, "orestes": 1, "polyphemus": 2, "poseidon": 3, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-01-002", "entities": {"athena": 3, "calypso": 1, "hermes": 1, "odysseus": 3, "penelope": 1, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-01-003", "entities": {"athena": 2, "phemius": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-01-004", "entities": {"athena": 1, "laertes": 1}, "ambiguous": {}}
+{"id": "odyssey-01-005", "entities": {"athena": 1, "odysseus": 2, "penelope": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-01-006", "entities": {"athena": 1, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-01-007", "entities": {"aegisthus": 1, "athena": 1, "menelaus": 1, "nestor": 1, "orestes": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-01-008", "entities": {"athena": 2, "odysseus": 1, "penelope": 1, "phemius": 2, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-01-009", "entities": {"antinous": 2, "athena": 1, "eurymachus": 1, "odysseus": 2, "phemius": 1, "telemachus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-01-010", "entities": {"athena": 1, "euryclea": 1, "eurymachus": 1, "laertes": 1, "telemachus": 4}, "ambiguous": {}}
+{"id": "odyssey-02-000", "entities": {"athena": 1, "odysseus": 2, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-02-001", "entities": {"antinous": 1, "odysseus": 2, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-02-002", "entities": {"antinous": 1, "athena": 1, "laertes": 1, "odysseus": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-02-003", "entities": {"antinous": 1, "telemachus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-02-004", "entities": {"eurymachus": 1, "odysseus": 3, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-02-005", "entities": {"eurymachus": 1, "odysseus": 2, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-02-006", "entities": {"athena": 2, "mentor": 3, "odysseus": 4, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-02-007", "entities": {"antinous": 1, "athena": 2, "mentor": 1, "odysseus": 2, "penelope": 1, "telemachus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-02-008", "entities": {"antinous": 2, "euryclea": 1, "odysseus": 1, "telemachus": 5}, "ambiguous": {}}
+{"id": "odyssey-02-009", "entities": {"athena": 1, "euryclea": 1, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-02-010", "entities": {"athena": 2, "mentor": 1, "odysseus": 1, "telemachus": 7, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-03-000", "entities": {"athena": 3, "mentor": 1, "neleus": 1, "nestor": 4, "pisistratus": 1, "poseidon": 2, "telemachus": 6}, "ambiguous": {}}
+{"id": "odyssey-03-001", "entities": {"athena": 3, "nestor": 4, "poseidon": 2, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-03-002", "entities": {"achilles": 2, "antilochus": 1, "nestor": 1, "odysseus": 3, "patroclus": 1, "priam": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "odyssey-03-003", "entities": {"agamemnon": 5, "athena": 2, "diomedes": 1, "menelaus": 4, "odysseus": 1, "priam": 1, "zeus": 4}, "ambiguous": {}}
+{"id": "odyssey-03-004", "entities": {"achilles": 1, "aegisthus": 3, "agamemnon": 1, "diomedes": 1, "idomeneus": 1, "menelaus": 1, "nestor": 2, "orestes": 2, "poseidon": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-03-005", "entities": {"aegisthus": 1, "agamemnon": 1, "athena": 3, "mentor": 1, "nestor": 2, "odysseus": 2, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-03-006", "entities": {"aegisthus": 6, "agamemnon": 4, "apollo": 1, "clytemnestra": 1, "menelaus": 6, "nestor": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-03-007", "entities": {"aegisthus": 2, "agamemnon": 1, "menelaus": 4, "orestes": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-03-008", "entities": {"athena": 3, "menelaus": 1, "nestor": 1, "odysseus": 1, "poseidon": 1, "telemachus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-03-009", "entities": {"athena": 2, "nestor": 3, "pisistratus": 1, "telemachus": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-03-010", "entities": {"athena": 3, "hades": 1, "neleus": 1, "nestor": 5, "pisistratus": 1, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-03-011", "entities": {"athena": 1, "nestor": 6, "pisistratus": 3, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-04-000", "entities": {"achilles": 2, "aphrodite": 1, "helen": 1, "menelaus": 4, "nestor": 1, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-04-001", "entities": {"menelaus": 3, "nestor": 1, "pisistratus": 2, "telemachus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-04-002", "entities": {"artemis": 1, "helen": 1, "menelaus": 2, "penelope": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-04-003", "entities": {"artemis": 1, "helen": 3, "menelaus": 5, "nestor": 1, "odysseus": 3, "pisistratus": 1, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-04-004", "entities": {"antilochus": 2, "helen": 1, "menelaus": 4, "nestor": 2, "pisistratus": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-04-005", "entities": {"helen": 3, "menelaus": 2, "nestor": 1, "odysseus": 1, "telemachus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-04-006", "entities": {"aphrodite": 1, "athena": 1, "deiphobus": 1, "diomedes": 2, "menelaus": 1, "odysseus": 4, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-04-007", "entities": {"helen": 2, "menelaus": 2, "odysseus": 2, "pisistratus": 1, "telemachus": 4}, "ambiguous": {"son of Atreus": 1}}
+{"id": "odyssey-04-008", "entities": {"apollo": 1, "athena": 1, "odysseus": 2, "proteus": 2, "zeus": 1}, "ambiguous": {"old man of the sea": 1}}
+{"id": "odyssey-04-009", "entities": {"poseidon": 1, "proteus": 1}, "ambiguous": {"old man of the sea": 1}}
+{"id": "odyssey-04-010", "entities": {}, "ambiguous": {"old man of the sea": 1}}
+{"id": "odyssey-04-011", "entities": {"zeus": 1}, "ambiguous": {"old man of the sea": 1}}
+{"id": "odyssey-04-012", "entities": {"aegisthus": 1, "agamemnon": 1, "athena": 1, "hera": 1, "nestor": 1, "poseidon": 2}, "ambiguous": {"Ajax": 3}}
+{"id": "odyssey-04-013", "entities": {"aegisthus": 4, "agamemnon": 5, "calypso": 1, "odysseus": 1, "orestes": 1, "proteus": 1}, "ambiguous": {"old man of the sea": 1}}
+{"id": "odyssey-04-014", "entities": {"agamemnon": 1, "calypso": 1, "helen": 1, "menelaus": 1, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-04-015", "entities": {"antinous": 3, "eurymachus": 1, "hephaestus": 1, "menelaus": 1, "odysseus": 1, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-04-016", "entities": {"antinous": 3, "eurymachus": 1, "mentor": 2, "neleus": 1, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-04-017", "entities": {"odysseus": 2, "penelope": 4, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-04-018", "entities": {"athena": 1, "euryclea": 1, "laertes": 1, "odysseus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-04-019", "entities": {"antinous": 1, "athena": 2, "laertes": 1, "odysseus": 1, "penelope": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-04-020", "entities": {"athena": 2, "hades": 1, "odysseus": 1, "penelope": 5}, "ambiguous": {}}
+{"id": "odyssey-04-021", "entities": {"hades": 1, "penelope": 2, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-05-000", "entities": {"athena": 1, "calypso": 3, "hermes": 2, "odysseus": 4, "telemachus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-05-001", "entities": {"calypso": 3, "hermes": 5, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-05-002", "entities": {"artemis": 1, "athena": 1, "calypso": 2, "hermes": 3, "priam": 1, "zeus": 5}, "ambiguous": {}}
+{"id": "odyssey-05-003", "entities": {"calypso": 3, "hermes": 1, "odysseus": 2, "zeus": 4}, "ambiguous": {}}
+{"id": "odyssey-05-004", "entities": {"calypso": 4, "hermes": 1, "odysseus": 5, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-05-005", "entities": {"calypso": 3, "odysseus": 2, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-05-006", "entities": {"calypso": 3, "odysseus": 4, "poseidon": 1}, "ambiguous": {}}
+{"id": "odyssey-05-007", "entities": {"achilles": 1, "agamemnon": 1, "calypso": 2, "ino": 2, "menelaus": 1, "odysseus": 2, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-05-008", "entities": {"calypso": 1, "ino": 1, "odysseus": 2, "poseidon": 2}, "ambiguous": {}}
+{"id": "odyssey-05-009", "entities": {"athena": 1, "odysseus": 4, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-05-010", "entities": {"athena": 2, "odysseus": 1, "poseidon": 2}, "ambiguous": {}}
+{"id": "odyssey-05-011", "entities": {"athena": 1, "ino": 2, "odysseus": 3}, "ambiguous": {}}
+{"id": "odyssey-06-000", "entities": {"alcinous": 2, "athena": 4, "hades": 1, "nausicaa": 3, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-06-001", "entities": {"athena": 1, "nausicaa": 1}, "ambiguous": {}}
+{"id": "odyssey-06-002", "entities": {"artemis": 1, "athena": 1, "nausicaa": 2, "odysseus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-06-003", "entities": {"alcinous": 1, "artemis": 1, "athena": 1, "odysseus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-06-004", "entities": {"apollo": 1, "artemis": 1, "nausicaa": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-06-005", "entities": {"alcinous": 1, "nausicaa": 2, "odysseus": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-06-006", "entities": {"athena": 2, "hephaestus": 1, "nausicaa": 1, "odysseus": 3}, "ambiguous": {}}
+{"id": "odyssey-06-007", "entities": {"athena": 1, "nausicaa": 1, "poseidon": 1}, "ambiguous": {}}
+{"id": "odyssey-06-008", "entities": {"alcinous": 1, "athena": 2, "odysseus": 3, "poseidon": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-07-000", "entities": {"alcinous": 3, "athena": 4, "nausicaa": 1, "odysseus": 4, "poseidon": 1}, "ambiguous": {}}
+{"id": "odyssey-07-001", "entities": {"alcinous": 5, "apollo": 1, "arete": 2, "athena": 2, "odysseus": 1, "poseidon": 2}, "ambiguous": {}}
+{"id": "odyssey-07-002", "entities": {"alcinous": 1, "athena": 1, "hephaestus": 1}, "ambiguous": {}}
+{"id": "odyssey-07-003", "entities": {"alcinous": 3, "arete": 2, "athena": 1, "hermes": 1, "odysseus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-07-004", "entities": {"alcinous": 4, "odysseus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-07-005", "entities": {"alcinous": 2, "arete": 2, "odysseus": 3}, "ambiguous": {}}
+{"id": "odyssey-07-006", "entities": {"arete": 1, "calypso": 3, "odysseus": 2, "poseidon": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-07-007", "entities": {"alcinous": 2, "apollo": 1, "athena": 1, "odysseus": 1, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-07-008", "entities": {"alcinous": 3, "apollo": 1, "arete": 1, "athena": 1, "odysseus": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-08-000", "entities": {"alcinous": 5, "athena": 2, "odysseus": 3}, "ambiguous": {}}
+{"id": "odyssey-08-001", "entities": {"achilles": 1, "agamemnon": 1, "alcinous": 3, "apollo": 1, "demodocus": 4, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-08-002", "entities": {"agamemnon": 1, "alcinous": 2, "apollo": 1, "ares": 1, "demodocus": 2, "odysseus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-08-003", "entities": {"alcinous": 1, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-08-004", "entities": {"athena": 1, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-08-005", "entities": {"alcinous": 1, "apollo": 1, "hercules": 1}, "ambiguous": {}}
+{"id": "odyssey-08-006", "entities": {"alcinous": 1, "aphrodite": 2, "ares": 2, "demodocus": 2, "hephaestus": 4, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-08-007", "entities": {"aphrodite": 3, "ares": 3, "hephaestus": 4, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-08-008", "entities": {"aphrodite": 2, "apollo": 3, "ares": 6, "hephaestus": 7, "hermes": 4, "poseidon": 3}, "ambiguous": {}}
+{"id": "odyssey-08-009", "entities": {"alcinous": 3, "aphrodite": 1, "ares": 1, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-08-010", "entities": {"alcinous": 3, "arete": 3, "odysseus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-08-011", "entities": {"alcinous": 3, "calypso": 1, "circe": 1, "demodocus": 3, "hera": 1, "nausicaa": 2, "odysseus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-08-012", "entities": {"apollo": 1, "ares": 1, "athena": 2, "deiphobus": 1, "demodocus": 3, "menelaus": 1, "odysseus": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-08-013", "entities": {"alcinous": 1, "demodocus": 2, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-08-014", "entities": {"poseidon": 1}, "ambiguous": {}}
+{"id": "odyssey-09-000", "entities": {"alcinous": 1, "calypso": 1, "circe": 1, "odysseus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-09-001", "entities": {"zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-09-002", "entities": {}, "ambiguous": {}}
+{"id": "odyssey-09-003", "entities": {"zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-09-004", "entities": {"apollo": 1}, "ambiguous": {}}
+{"id": "odyssey-09-005", "entities": {"apollo": 1, "polyphemus": 1}, "ambiguous": {}}
+{"id": "odyssey-09-006", "entities": {"agamemnon": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-09-007", "entities": {"polyphemus": 1, "poseidon": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-09-008", "entities": {}, "ambiguous": {}}
+{"id": "odyssey-09-009", "entities": {}, "ambiguous": {}}
+{"id": "odyssey-09-010", "entities": {"polyphemus": 3}, "ambiguous": {}}
+{"id": "odyssey-09-011", "entities": {"polyphemus": 3, "poseidon": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-09-012", "entities": {"polyphemus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-09-013", "entities": {"odysseus": 4, "polyphemus": 1, "poseidon": 2}, "ambiguous": {}}
+{"id": "odyssey-09-014", "entities": {"hades": 1, "odysseus": 2, "polyphemus": 1, "poseidon": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-000", "entities": {"aeolus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-001", "entities": {"aeolus": 2, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-002", "entities": {}, "ambiguous": {}}
+{"id": "odyssey-10-003", "entities": {"circe": 2}, "ambiguous": {}}
+{"id": "odyssey-10-004", "entities": {"polyphemus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-005", "entities": {"circe": 2, "eurylochus": 3, "polyphemus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-006", "entities": {"circe": 1, "eurylochus": 2}, "ambiguous": {}}
+{"id": "odyssey-10-007", "entities": {"circe": 5, "hermes": 1}, "ambiguous": {}}
+{"id": "odyssey-10-008", "entities": {"circe": 1, "hermes": 2, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-009", "entities": {"circe": 2, "hermes": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-010", "entities": {"circe": 4, "odysseus": 3}, "ambiguous": {}}
+{"id": "odyssey-10-011", "entities": {"circe": 4, "eurylochus": 2, "odysseus": 1, "polyphemus": 1}, "ambiguous": {}}
+{"id": "odyssey-10-012", "entities": {"circe": 5, "odysseus": 4}, "ambiguous": {}}
+{"id": "odyssey-10-013", "entities": {"hades": 3, "odysseus": 2, "persephone": 3, "teiresias": 2}, "ambiguous": {}}
+{"id": "odyssey-10-014", "entities": {"circe": 3, "elpenor": 1, "hades": 3, "persephone": 2, "teiresias": 2}, "ambiguous": {}}
+{"id": "odyssey-11-000", "entities": {"circe": 2, "eurylochus": 1, "teiresias": 1}, "ambiguous": {}}
+{"id": "odyssey-11-001", "entities": {"circe": 2, "elpenor": 2, "hades": 2, "persephone": 1, "teiresias": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-11-002", "entities": {"odysseus": 2, "poseidon": 1, "teiresias": 2}, "ambiguous": {}}
+{"id": "odyssey-11-003", "entities": {"hades": 1, "poseidon": 1, "teiresias": 1}, "ambiguous": {}}
+{"id": "odyssey-11-004", "entities": {"agamemnon": 1, "hades": 1, "teiresias": 2, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-11-005", "entities": {"hades": 1, "persephone": 3}, "ambiguous": {}}
+{"id": "odyssey-11-006", "entities": {"aeolus": 1, "hades": 1, "hercules": 1, "neleus": 1, "poseidon": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-11-007", "entities": {"apollo": 1, "hades": 1, "neleus": 2, "nestor": 1, "poseidon": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-11-008", "entities": {"alcinous": 2, "apollo": 1, "arete": 1, "artemis": 1}, "ambiguous": {}}
+{"id": "odyssey-11-009", "entities": {"aegisthus": 1, "agamemnon": 3, "alcinous": 3, "odysseus": 3, "persephone": 1, "poseidon": 1}, "ambiguous": {}}
+{"id": "odyssey-11-010", "entities": {"aegisthus": 1, "agamemnon": 1, "clytemnestra": 2, "helen": 1, "odysseus": 3, "penelope": 1, "poseidon": 2, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-11-011", "entities": {"achilles": 5, "agamemnon": 1, "antilochus": 1, "hades": 1, "menelaus": 1, "odysseus": 3, "orestes": 1, "patroclus": 1, "penelope": 1, "teiresias": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "odyssey-11-012", "entities": {"nestor": 1, "peleus": 2}, "ambiguous": {}}
+{"id": "odyssey-11-013", "entities": {"achilles": 5, "ajax_telamon": 1, "ares": 1, "athena": 1, "priam": 1, "thetis": 1, "zeus": 1}, "ambiguous": {"Ajax": 2}}
+{"id": "odyssey-11-014", "entities": {"hades": 1, "hera": 1, "hercules": 1, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-11-015", "entities": {"athena": 1, "hades": 3, "hera": 1, "hercules": 3, "hermes": 1, "odysseus": 2, "persephone": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-12-000", "entities": {"circe": 3, "elpenor": 1, "hades": 2, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-12-001", "entities": {"hera": 1, "sirens": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-12-002", "entities": {"charybdis": 2, "poseidon": 1, "scylla": 3}, "ambiguous": {}}
+{"id": "odyssey-12-003", "entities": {"circe": 2, "helios": 3, "scylla": 2}, "ambiguous": {}}
+{"id": "odyssey-12-004", "entities": {"circe": 1, "helios": 2, "odysseus": 1, "sirens": 3}, "ambiguous": {}}
+{"id": "odyssey-12-005", "entities": {"circe": 1, "eurylochus": 1, "polyphemus": 1, "scylla": 1, "sirens": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-12-006", "entities": {"charybdis": 2, "helios": 2, "scylla": 5}, "ambiguous": {}}
+{"id": "odyssey-12-007", "entities": {"circe": 3, "eurylochus": 2, "helios": 2, "odysseus": 1, "teiresias": 2}, "ambiguous": {}}
+{"id": "odyssey-12-008", "entities": {"eurylochus": 1, "scylla": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-12-009", "entities": {"eurylochus": 1, "helios": 1, "odysseus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-12-010", "entities": {"calypso": 1, "hades": 1, "hermes": 1, "odysseus": 1, "zeus": 5}, "ambiguous": {}}
+{"id": "odyssey-12-011", "entities": {"calypso": 1, "charybdis": 1, "scylla": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-13-000", "entities": {"alcinous": 4, "demodocus": 1, "odysseus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-13-001", "entities": {"alcinous": 3, "arete": 2, "odysseus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-13-002", "entities": {"athena": 1, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-13-003", "entities": {"odysseus": 3, "poseidon": 3, "zeus": 4}, "ambiguous": {}}
+{"id": "odyssey-13-004", "entities": {"alcinous": 1, "athena": 1, "odysseus": 1, "poseidon": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-13-005", "entities": {"athena": 2, "odysseus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-13-006", "entities": {"athena": 1, "idomeneus": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-13-007", "entities": {"athena": 3, "odysseus": 1, "priam": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-13-008", "entities": {"athena": 2, "odysseus": 1, "poseidon": 1, "priam": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-13-009", "entities": {"agamemnon": 1, "athena": 3, "odysseus": 5, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-13-010", "entities": {"athena": 2, "menelaus": 2, "odysseus": 1, "penelope": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-14-000", "entities": {"athena": 1, "laertes": 1, "odysseus": 4, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-14-001", "entities": {"agamemnon": 1, "eumaeus": 1, "helen": 1, "odysseus": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-14-002", "entities": {"odysseus": 6, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-14-003", "entities": {"agamemnon": 1, "eumaeus": 1, "odysseus": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-14-004", "entities": {"eumaeus": 1, "laertes": 1, "odysseus": 4, "penelope": 1, "telemachus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-14-005", "entities": {"ares": 1, "athena": 1, "hades": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-14-006", "entities": {"idomeneus": 1, "priam": 1, "zeus": 4}, "ambiguous": {}}
+{"id": "odyssey-14-007", "entities": {"zeus": 5}, "ambiguous": {}}
+{"id": "odyssey-14-008", "entities": {"odysseus": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-14-009", "entities": {"eumaeus": 1, "idomeneus": 1, "odysseus": 4, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-14-010", "entities": {"eumaeus": 3, "odysseus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-14-011", "entities": {"eumaeus": 4, "hermes": 1, "laertes": 1, "odysseus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-14-012", "entities": {"agamemnon": 1, "eumaeus": 2, "menelaus": 1, "odysseus": 5}, "ambiguous": {}}
+{"id": "odyssey-14-013", "entities": {"agamemnon": 1, "eumaeus": 2, "odysseus": 5}, "ambiguous": {}}
+{"id": "odyssey-15-000", "entities": {"athena": 2, "eurymachus": 1, "menelaus": 2, "odysseus": 1, "penelope": 1, "pisistratus": 2, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-15-001", "entities": {"helen": 1, "menelaus": 4, "penelope": 1, "pisistratus": 3, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-15-002", "entities": {"helen": 3, "hephaestus": 1, "hera": 1, "menelaus": 5, "telemachus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-15-003", "entities": {"helen": 2, "menelaus": 2, "nestor": 1, "odysseus": 1, "pisistratus": 3, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-15-004", "entities": {"helen": 1, "menelaus": 2, "odysseus": 1, "pisistratus": 3, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-15-005", "entities": {"athena": 1, "menelaus": 1, "neleus": 4, "pisistratus": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-15-006", "entities": {"apollo": 2, "odysseus": 1, "telemachus": 3, "theoclymenus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-15-007", "entities": {"athena": 1, "eumaeus": 1, "hermes": 1, "odysseus": 3, "penelope": 1, "telemachus": 2, "theoclymenus": 2}, "ambiguous": {}}
+{"id": "odyssey-15-008", "entities": {"eumaeus": 1, "hades": 1, "hermes": 1, "laertes": 1, "odysseus": 2, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-15-009", "entities": {"eumaeus": 2, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-15-010", "entities": {"apollo": 1, "artemis": 1}, "ambiguous": {}}
+{"id": "odyssey-15-011", "entities": {}, "ambiguous": {}}
+{"id": "odyssey-15-012", "entities": {"artemis": 1, "eumaeus": 1, "laertes": 1, "odysseus": 1, "telemachus": 2, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-15-013", "entities": {"apollo": 1, "eurymachus": 1, "odysseus": 1, "telemachus": 4, "theoclymenus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-15-014", "entities": {"telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-16-000", "entities": {"eumaeus": 4, "odysseus": 4, "telemachus": 5}, "ambiguous": {}}
+{"id": "odyssey-16-001", "entities": {"eumaeus": 3, "odysseus": 3, "telemachus": 4}, "ambiguous": {}}
+{"id": "odyssey-16-002", "entities": {"laertes": 1, "odysseus": 6, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-16-003", "entities": {"athena": 1, "eumaeus": 3, "laertes": 2, "odysseus": 2, "penelope": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-16-004", "entities": {"odysseus": 7, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-16-005", "entities": {"athena": 2, "odysseus": 3, "telemachus": 4}, "ambiguous": {}}
+{"id": "odyssey-16-006", "entities": {"athena": 2, "odysseus": 2, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-16-007", "entities": {"athena": 2, "laertes": 1, "odysseus": 2, "penelope": 1, "telemachus": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-16-008", "entities": {"amphinomus": 1, "antinous": 1, "eumaeus": 2, "eurymachus": 1, "penelope": 3, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-16-009", "entities": {"amphinomus": 1, "penelope": 2, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-16-010", "entities": {"antinous": 2, "eurymachus": 1, "odysseus": 3, "penelope": 2, "telemachus": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-16-011", "entities": {"athena": 2, "eumaeus": 4, "hermes": 1, "odysseus": 2, "penelope": 2, "telemachus": 4}, "ambiguous": {}}
+{"id": "odyssey-17-000", "entities": {"aphrodite": 1, "artemis": 1, "euryclea": 1, "odysseus": 1, "penelope": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-17-001", "entities": {"athena": 1, "menelaus": 1, "mentor": 1, "telemachus": 5, "theoclymenus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-17-002", "entities": {"agamemnon": 1, "helen": 1, "menelaus": 3, "nestor": 1, "odysseus": 3, "penelope": 2, "telemachus": 1, "theoclymenus": 1}, "ambiguous": {}}
+{"id": "odyssey-17-003", "entities": {"apollo": 1, "athena": 1, "calypso": 1, "menelaus": 1, "odysseus": 6, "penelope": 2, "telemachus": 2, "theoclymenus": 1, "zeus": 2}, "ambiguous": {"old man of the sea": 1}}
+{"id": "odyssey-17-004", "entities": {"eumaeus": 1, "odysseus": 2}, "ambiguous": {}}
+{"id": "odyssey-17-005", "entities": {"eumaeus": 1, "melanthius": 3, "odysseus": 6, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-17-006", "entities": {"apollo": 1, "eumaeus": 2, "eurymachus": 1, "melanthius": 1, "odysseus": 5, "phemius": 1, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-17-007", "entities": {"eumaeus": 3, "odysseus": 5}, "ambiguous": {}}
+{"id": "odyssey-17-008", "entities": {"athena": 1, "eumaeus": 3, "odysseus": 3, "telemachus": 6, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-17-009", "entities": {"antinous": 5, "athena": 1, "eumaeus": 1, "melanthius": 1, "odysseus": 3, "penelope": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-17-010", "entities": {"antinous": 2, "odysseus": 1, "telemachus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-17-011", "entities": {"antinous": 4, "odysseus": 2, "penelope": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-17-012", "entities": {"antinous": 7, "apollo": 1, "eumaeus": 2, "odysseus": 1, "penelope": 2, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-17-013", "entities": {"eumaeus": 2, "odysseus": 4, "penelope": 3, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-17-014", "entities": {"eumaeus": 4, "odysseus": 2, "penelope": 5, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-17-015", "entities": {"eumaeus": 1, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-18-000", "entities": {"antinous": 1, "irus": 2, "odysseus": 3}, "ambiguous": {}}
+{"id": "odyssey-18-001", "entities": {"antinous": 3, "athena": 1, "eurymachus": 1, "irus": 4, "odysseus": 2, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-18-002", "entities": {"antinous": 1, "irus": 4, "odysseus": 4, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-18-003", "entities": {"amphinomus": 2, "antinous": 1, "odysseus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-18-004", "entities": {"amphinomus": 1, "athena": 3, "penelope": 3, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-18-005", "entities": {"aphrodite": 1, "artemis": 1, "athena": 1, "penelope": 1, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-18-006", "entities": {"apollo": 1, "athena": 1, "eurymachus": 2, "irus": 2, "penelope": 2, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-18-007", "entities": {"antinous": 3, "eurymachus": 1, "odysseus": 1, "penelope": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-18-008", "entities": {"athena": 1, "eurymachus": 2, "irus": 1, "odysseus": 5, "penelope": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-18-009", "entities": {"athena": 1, "eurymachus": 3, "odysseus": 5, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-18-010", "entities": {"amphinomus": 3, "irus": 1, "odysseus": 2, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-19-000", "entities": {"athena": 2, "euryclea": 3, "odysseus": 4, "telemachus": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-19-001", "entities": {"aphrodite": 1, "artemis": 1, "athena": 1, "odysseus": 5, "penelope": 1, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-19-002", "entities": {"apollo": 1, "odysseus": 3, "penelope": 2, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-19-003", "entities": {"laertes": 1, "odysseus": 2, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-19-004", "entities": {"idomeneus": 2, "odysseus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-19-005", "entities": {"idomeneus": 3, "odysseus": 3, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-19-006", "entities": {"odysseus": 5, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-19-007", "entities": {"helios": 2, "odysseus": 9, "penelope": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-19-008", "entities": {"odysseus": 7, "penelope": 1, "telemachus": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-19-009", "entities": {"euryclea": 1, "odysseus": 2, "penelope": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-19-010", "entities": {"hermes": 1, "odysseus": 4, "penelope": 2}, "ambiguous": {}}
+{"id": "odyssey-19-011", "entities": {"euryclea": 1, "odysseus": 4}, "ambiguous": {}}
+{"id": "odyssey-19-012", "entities": {"athena": 1, "euryclea": 3, "odysseus": 7, "penelope": 2}, "ambiguous": {}}
+{"id": "odyssey-19-013", "entities": {"athena": 1, "euryclea": 3, "odysseus": 3, "penelope": 3}, "ambiguous": {}}
+{"id": "odyssey-19-014", "entities": {}, "ambiguous": {}}
+{"id": "odyssey-19-015", "entities": {"athena": 1, "odysseus": 7, "penelope": 2}, "ambiguous": {}}
+{"id": "odyssey-20-000", "entities": {"athena": 1, "odysseus": 4}, "ambiguous": {}}
+{"id": "odyssey-20-001", "entities": {"aphrodite": 2, "artemis": 3, "athena": 2, "hera": 1, "odysseus": 2, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-20-002", "entities": {"aphrodite": 1, "artemis": 2, "athena": 1, "hera": 1, "odysseus": 4, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-20-003", "entities": {"euryclea": 2, "odysseus": 2, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-20-004", "entities": {"euryclea": 1, "melanthius": 2, "odysseus": 3, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-20-005", "entities": {"hades": 1, "odysseus": 4, "philoetius": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-20-006", "entities": {"amphinomus": 1, "antinous": 1, "eumaeus": 1, "melanthius": 1, "odysseus": 6, "philoetius": 1, "telemachus": 4, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-20-007", "entities": {"antinous": 2, "apollo": 1, "athena": 1, "odysseus": 6, "telemachus": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-20-008", "entities": {"athena": 1, "odysseus": 1, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-20-009", "entities": {"athena": 1, "eurymachus": 2, "odysseus": 1, "penelope": 1, "telemachus": 3, "theoclymenus": 2}, "ambiguous": {}}
+{"id": "odyssey-21-000", "entities": {"athena": 1, "hercules": 3, "odysseus": 5, "penelope": 1, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-21-001", "entities": {"eumaeus": 2, "odysseus": 2, "penelope": 2}, "ambiguous": {}}
+{"id": "odyssey-21-002", "entities": {"antinous": 1, "eumaeus": 2, "odysseus": 2, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-21-003", "entities": {"antinous": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-21-004", "entities": {"antinous": 2, "eurymachus": 1, "melanthius": 2, "odysseus": 1, "penelope": 2}, "ambiguous": {}}
+{"id": "odyssey-21-005", "entities": {"eumaeus": 2, "odysseus": 11, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-21-006", "entities": {"antinous": 1, "apollo": 2, "eumaeus": 1, "eurymachus": 2, "melanthius": 1, "odysseus": 1, "philoetius": 1}, "ambiguous": {}}
+{"id": "odyssey-21-007", "entities": {"antinous": 2, "eurymachus": 1, "odysseus": 1}, "ambiguous": {}}
+{"id": "odyssey-21-008", "entities": {"antinous": 1, "apollo": 1, "eurymachus": 2, "odysseus": 1, "penelope": 3, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-21-009", "entities": {"apollo": 1, "athena": 1, "eumaeus": 3, "euryclea": 2, "odysseus": 2, "telemachus": 4}, "ambiguous": {}}
+{"id": "odyssey-21-010", "entities": {"cronus": 1, "euryclea": 1, "odysseus": 3, "philoetius": 1, "telemachus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-22-000", "entities": {"antinous": 3, "apollo": 1, "eurymachus": 1, "odysseus": 3}, "ambiguous": {}}
+{"id": "odyssey-22-001", "entities": {"antinous": 1, "eurymachus": 2, "odysseus": 4, "penelope": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-22-002", "entities": {"amphinomus": 1, "odysseus": 4, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-22-003", "entities": {"eumaeus": 1, "melanthius": 7, "odysseus": 8, "philoetius": 1, "telemachus": 3}, "ambiguous": {}}
+{"id": "odyssey-22-004", "entities": {"athena": 2, "eumaeus": 1, "laertes": 1, "melanthius": 4, "mentor": 2, "odysseus": 4, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-22-005", "entities": {"athena": 2, "helen": 1, "mentor": 3, "odysseus": 5, "priam": 1}, "ambiguous": {}}
+{"id": "odyssey-22-006", "entities": {"athena": 3, "eumaeus": 3, "odysseus": 7, "telemachus": 4}, "ambiguous": {}}
+{"id": "odyssey-22-007", "entities": {"athena": 1, "laertes": 1, "odysseus": 7, "phemius": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-22-008", "entities": {"eumaeus": 1, "laertes": 1, "odysseus": 6, "philoetius": 1, "telemachus": 5, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-22-009", "entities": {"euryclea": 3, "odysseus": 5, "telemachus": 3, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-22-010", "entities": {"euryclea": 1, "odysseus": 3, "penelope": 1, "telemachus": 4}, "ambiguous": {}}
+{"id": "odyssey-22-011", "entities": {"euryclea": 2, "melanthius": 1, "odysseus": 4, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-23-000", "entities": {"euryclea": 4, "odysseus": 2, "penelope": 3, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-23-001", "entities": {"euryclea": 1, "odysseus": 4, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-23-002", "entities": {"odysseus": 3, "penelope": 2, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-23-003", "entities": {"odysseus": 3, "phemius": 2, "telemachus": 2}, "ambiguous": {}}
+{"id": "odyssey-23-004", "entities": {"athena": 2, "euryclea": 1, "hephaestus": 1, "odysseus": 2, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-23-005", "entities": {"helen": 1, "odysseus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-23-006", "entities": {"athena": 1, "hades": 1, "odysseus": 3, "penelope": 1, "poseidon": 1, "teiresias": 2}, "ambiguous": {}}
+{"id": "odyssey-23-007", "entities": {"odysseus": 3, "penelope": 3, "philoetius": 1, "poseidon": 1, "teiresias": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-23-008", "entities": {"aeolus": 1, "athena": 1, "calypso": 1, "charybdis": 1, "circe": 1, "hades": 1, "helios": 1, "odysseus": 1, "polyphemus": 1, "scylla": 1, "sirens": 1, "teiresias": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-23-009", "entities": {"athena": 1, "eumaeus": 1, "odysseus": 3, "penelope": 1, "philoetius": 1, "telemachus": 1}, "ambiguous": {}}
+{"id": "odyssey-24-000", "entities": {"achilles": 6, "aegisthus": 1, "agamemnon": 2, "antilochus": 1, "hermes": 2, "patroclus": 1, "zeus": 1}, "ambiguous": {"Ajax": 1}}
+{"id": "odyssey-24-001", "entities": {"antilochus": 1, "hephaestus": 1, "nestor": 1, "patroclus": 2, "zeus": 1}, "ambiguous": {"old man of the sea": 1}}
+{"id": "odyssey-24-002", "entities": {"achilles": 2, "aegisthus": 1, "agamemnon": 4, "hermes": 1, "menelaus": 1, "odysseus": 3, "poseidon": 1, "thetis": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-24-003", "entities": {"agamemnon": 2, "laertes": 1, "odysseus": 4, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-24-004", "entities": {"agamemnon": 2, "antinous": 1, "hades": 1, "odysseus": 4, "penelope": 2, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-24-005", "entities": {"eumaeus": 1, "hades": 1, "laertes": 1, "odysseus": 4, "philoetius": 1}, "ambiguous": {}}
+{"id": "odyssey-24-006", "entities": {"hades": 1, "laertes": 1}, "ambiguous": {}}
+{"id": "odyssey-24-007", "entities": {"laertes": 1, "odysseus": 3, "penelope": 1}, "ambiguous": {}}
+{"id": "odyssey-24-008", "entities": {"eumaeus": 1, "laertes": 2, "odysseus": 5, "philoetius": 1, "telemachus": 1, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-24-009", "entities": {"apollo": 1, "athena": 2, "eumaeus": 1, "laertes": 3, "odysseus": 3, "penelope": 1, "philoetius": 1, "telemachus": 2, "zeus": 1}, "ambiguous": {}}
+{"id": "odyssey-24-010", "entities": {"antinous": 1, "odysseus": 6, "penelope": 1, "phemius": 1}, "ambiguous": {}}
+{"id": "odyssey-24-011", "entities": {"athena": 1, "mentor": 2, "odysseus": 4, "zeus": 3}, "ambiguous": {}}
+{"id": "odyssey-24-012", "entities": {"athena": 3, "laertes": 3, "mentor": 1, "odysseus": 6, "telemachus": 3, "zeus": 2}, "ambiguous": {}}
+{"id": "odyssey-24-013", "entities": {"athena": 4, "mentor": 1, "odysseus": 6, "zeus": 2}, "ambiguous": {}}

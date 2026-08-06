@@ -1,0 +1,782 @@
+{
+  "comment": "Homeric entity roster for the Butler prose translations (Project Gutenberg #2199, #1727). Every surface form in aliases/epithets/patronymics/surface_forms is verified to occur in data/chunks.jsonl (case-sensitive, word-boundary); tests/test_entities.py enforces this. Butler uses Roman names (Jove, Ulysses, Minerva); canonical_name is Butler's form, greek_name the conventional Greek name where it differs. A surface listed under two characters is ambiguous by construction (e.g. 'Ajax', 'son of Atreus').",
+  "characters": [
+    {
+      "id": "zeus",
+      "canonical_name": "Jove",
+      "greek_name": "Zeus",
+      "aliases": ["Jove"],
+      "epithets": ["aegis-bearing Jove"],
+      "patronymics": ["son of Saturn"],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "hera",
+      "canonical_name": "Juno",
+      "greek_name": "Hera",
+      "aliases": ["Juno"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "athena",
+      "canonical_name": "Minerva",
+      "greek_name": "Athena",
+      "aliases": ["Minerva"],
+      "epithets": ["Pallas Minerva"],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "apollo",
+      "canonical_name": "Apollo",
+      "aliases": ["Apollo", "Phoebus"],
+      "epithets": ["Phoebus Apollo", "King Apollo"],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "poseidon",
+      "canonical_name": "Neptune",
+      "greek_name": "Poseidon",
+      "aliases": ["Neptune"],
+      "epithets": ["lord of the earthquake", "earth-encircler"],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "aphrodite",
+      "canonical_name": "Venus",
+      "greek_name": "Aphrodite",
+      "aliases": ["Venus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "ares",
+      "canonical_name": "Mars",
+      "greek_name": "Ares",
+      "aliases": ["Mars"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "artemis",
+      "canonical_name": "Diana",
+      "greek_name": "Artemis",
+      "aliases": ["Diana"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "hermes",
+      "canonical_name": "Mercury",
+      "greek_name": "Hermes",
+      "aliases": ["Mercury"],
+      "epithets": ["slayer of Argus"],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "hephaestus",
+      "canonical_name": "Vulcan",
+      "greek_name": "Hephaestus",
+      "aliases": ["Vulcan"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "hades",
+      "canonical_name": "Hades",
+      "aliases": ["Hades"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "Butler frequently uses 'Hades' for the god's realm ('the house of Hades', 'go down to Hades'); mention counts mix the god and the place."
+    },
+    {
+      "id": "cronus",
+      "canonical_name": "Saturn",
+      "greek_name": "Cronos",
+      "aliases": ["Saturn"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "Bare 'Saturn' resolves here; 'son of Saturn' is a patronymic of Jove and wins by longest match."
+    },
+    {
+      "id": "persephone",
+      "canonical_name": "Proserpine",
+      "greek_name": "Persephone",
+      "aliases": ["Proserpine"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "thetis",
+      "canonical_name": "Thetis",
+      "aliases": ["Thetis"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "iris",
+      "canonical_name": "Iris",
+      "aliases": ["Iris"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "helios",
+      "canonical_name": "the sun-god",
+      "greek_name": "Helios",
+      "aliases": ["Hyperion", "sun-god"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "Butler conflates Helios and Hyperion ('the sun-god Hyperion', once 'sun-god son of Hyperion'); both surfaces map here."
+    },
+    {
+      "id": "calypso",
+      "canonical_name": "Calypso",
+      "aliases": ["Calypso"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "circe",
+      "canonical_name": "Circe",
+      "aliases": ["Circe"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "ino",
+      "canonical_name": "Ino",
+      "greek_name": "Ino Leucothea",
+      "aliases": ["Ino", "Leucothea"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "proteus",
+      "canonical_name": "Proteus",
+      "aliases": ["Proteus"],
+      "epithets": ["old man of the sea"],
+      "patronymics": [],
+      "work_presence": ["odyssey"],
+      "notes": "'old man of the sea' is shared with Nereus and therefore ambiguous on its own: the Odyssey book 4 occurrences are Proteus, the Iliad occurrences (father of Thetis) are Nereus."
+    },
+    {
+      "id": "nereus",
+      "canonical_name": "Nereus",
+      "aliases": ["Nereus"],
+      "epithets": ["old man of the sea"],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "aeolus",
+      "canonical_name": "Aeolus",
+      "aliases": ["Aeolus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"],
+      "notes": "The single Iliad occurrence of 'Aeolus' is a different figure (ancestor of Sisyphus, Iliad book 6); the keeper of the winds appears only in the Odyssey."
+    },
+    {
+      "id": "polyphemus",
+      "canonical_name": "Polyphemus",
+      "aliases": ["Polyphemus"],
+      "epithets": ["the Cyclops"],
+      "patronymics": [],
+      "work_presence": ["odyssey"],
+      "notes": "The single Iliad occurrence of 'Polyphemus' is a Lapith hero (Iliad book 1), not the Cyclops."
+    },
+    {
+      "id": "scylla",
+      "canonical_name": "Scylla",
+      "aliases": ["Scylla"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "charybdis",
+      "canonical_name": "Charybdis",
+      "aliases": ["Charybdis"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "sirens",
+      "canonical_name": "the Sirens",
+      "aliases": ["Sirens"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "achilles",
+      "canonical_name": "Achilles",
+      "aliases": ["Achilles"],
+      "epithets": [],
+      "patronymics": ["son of Peleus"],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "Butler's prose drops the Greek epithets: 'Pelides' and 'swift-footed' never occur, and 'fleet of foot' is applied to many characters, so neither is listed here."
+    },
+    {
+      "id": "agamemnon",
+      "canonical_name": "Agamemnon",
+      "aliases": ["Agamemnon"],
+      "epithets": ["King Agamemnon"],
+      "patronymics": ["son of Atreus"],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "'son of Atreus' is shared with Menelaus and ambiguous on its own. 'king of men' is not listed: Butler applies it once to Aeneas."
+    },
+    {
+      "id": "menelaus",
+      "canonical_name": "Menelaus",
+      "aliases": ["Menelaus"],
+      "epithets": [],
+      "patronymics": ["son of Atreus"],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "odysseus",
+      "canonical_name": "Ulysses",
+      "greek_name": "Odysseus",
+      "aliases": ["Ulysses"],
+      "epithets": [],
+      "patronymics": ["son of Laertes"],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "Butler uses the Roman 'Ulysses' throughout; 'Odysseus' never occurs in the corpus."
+    },
+    {
+      "id": "ajax_telamon",
+      "canonical_name": "Ajax (son of Telamon)",
+      "greek_name": "Telamonian Ajax",
+      "aliases": ["Ajax", "Ajax son of Telamon", "Ajax, son of Telamon"],
+      "epithets": [],
+      "patronymics": ["son of Telamon"],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "'Ajax' alone is ambiguous with Ajax son of Oileus. 'son of Telamon' alone is ambiguous with Teucer, Telamon's other son."
+    },
+    {
+      "id": "ajax_oileus",
+      "canonical_name": "Ajax (son of Oileus)",
+      "greek_name": "Locrian Ajax",
+      "aliases": ["Ajax", "Ajax son of Oileus"],
+      "epithets": [],
+      "patronymics": ["son of Oileus"],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "'Ajax' alone is ambiguous with Ajax son of Telamon. One Iliad occurrence of 'son of Oileus' refers to Medon, 'the bastard son of Oileus' (Iliad book 2)."
+    },
+    {
+      "id": "teucer",
+      "canonical_name": "Teucer",
+      "aliases": ["Teucer"],
+      "epithets": [],
+      "patronymics": ["son of Telamon"],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "diomedes",
+      "canonical_name": "Diomed",
+      "greek_name": "Diomedes",
+      "aliases": ["Diomed"],
+      "epithets": [],
+      "patronymics": ["son of Tydeus"],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "tydeus",
+      "canonical_name": "Tydeus",
+      "aliases": ["Tydeus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "nestor",
+      "canonical_name": "Nestor",
+      "aliases": ["Nestor"],
+      "epithets": [],
+      "patronymics": ["son of Neleus"],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "neleus",
+      "canonical_name": "Neleus",
+      "aliases": ["Neleus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "patroclus",
+      "canonical_name": "Patroclus",
+      "aliases": ["Patroclus"],
+      "epithets": [],
+      "patronymics": ["son of Menoetius"],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "antilochus",
+      "canonical_name": "Antilochus",
+      "aliases": ["Antilochus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "idomeneus",
+      "canonical_name": "Idomeneus",
+      "aliases": ["Idomeneus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "meriones",
+      "canonical_name": "Meriones",
+      "aliases": ["Meriones"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "machaon",
+      "canonical_name": "Machaon",
+      "aliases": ["Machaon"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "calchas",
+      "canonical_name": "Calchas",
+      "aliases": ["Calchas"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "phoenix",
+      "canonical_name": "Phoenix",
+      "aliases": ["Phoenix"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"],
+      "notes": "Achilles' old tutor. One Iliad occurrence names a different Phoenix (father of Europa, book 14)."
+    },
+    {
+      "id": "automedon",
+      "canonical_name": "Automedon",
+      "aliases": ["Automedon"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "peleus",
+      "canonical_name": "Peleus",
+      "aliases": ["Peleus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "helen",
+      "canonical_name": "Helen",
+      "aliases": ["Helen"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "hercules",
+      "canonical_name": "Hercules",
+      "greek_name": "Heracles",
+      "aliases": ["Hercules"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "hector",
+      "canonical_name": "Hector",
+      "aliases": ["Hector"],
+      "epithets": [],
+      "patronymics": ["son of Priam"],
+      "work_presence": ["iliad"],
+      "notes": "'son of Priam' alone is ambiguous: Priam has many sons in the poem (Hector, Alexandrus, Helenus, Deiphobus, and others outside this roster)."
+    },
+    {
+      "id": "priam",
+      "canonical_name": "Priam",
+      "aliases": ["Priam"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "paris",
+      "canonical_name": "Alexandrus",
+      "greek_name": "Paris (Alexandros)",
+      "aliases": ["Alexandrus", "Paris"],
+      "epithets": [],
+      "patronymics": ["son of Priam"],
+      "work_presence": ["iliad"],
+      "notes": "Butler alternates between 'Alexandrus' (53 occurrences) and 'Paris' (24) for the same person."
+    },
+    {
+      "id": "aeneas",
+      "canonical_name": "Aeneas",
+      "aliases": ["Aeneas"],
+      "epithets": [],
+      "patronymics": ["son of Anchises"],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "anchises",
+      "canonical_name": "Anchises",
+      "aliases": ["Anchises"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "sarpedon",
+      "canonical_name": "Sarpedon",
+      "aliases": ["Sarpedon"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "glaucus",
+      "canonical_name": "Glaucus",
+      "aliases": ["Glaucus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"],
+      "notes": "The Lycian captain; the genealogy in Iliad book 6 also names his great-grandfather Glaucus."
+    },
+    {
+      "id": "pandarus",
+      "canonical_name": "Pandarus",
+      "aliases": ["Pandarus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "helenus",
+      "canonical_name": "Helenus",
+      "aliases": ["Helenus"],
+      "epithets": [],
+      "patronymics": ["son of Priam"],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "deiphobus",
+      "canonical_name": "Deiphobus",
+      "aliases": ["Deiphobus"],
+      "epithets": [],
+      "patronymics": ["son of Priam"],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "polydamas",
+      "canonical_name": "Polydamas",
+      "aliases": ["Polydamas"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "antenor",
+      "canonical_name": "Antenor",
+      "aliases": ["Antenor"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "chryses",
+      "canonical_name": "Chryses",
+      "aliases": ["Chryses"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "chryseis",
+      "canonical_name": "Chryseis",
+      "aliases": ["Chryseis"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "briseis",
+      "canonical_name": "Briseis",
+      "aliases": ["Briseis"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "andromache",
+      "canonical_name": "Andromache",
+      "aliases": ["Andromache"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "hecuba",
+      "canonical_name": "Hecuba",
+      "aliases": ["Hecuba"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad"]
+    },
+    {
+      "id": "telemachus",
+      "canonical_name": "Telemachus",
+      "aliases": ["Telemachus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "penelope",
+      "canonical_name": "Penelope",
+      "aliases": ["Penelope"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"],
+      "notes": "'daughter of Icarius' is not listed as an epithet: one of its eight occurrences refers to Penelope's sister Iphthime."
+    },
+    {
+      "id": "laertes",
+      "canonical_name": "Laertes",
+      "aliases": ["Laertes"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "In the Iliad he appears only inside Ulysses' patronymic 'son of Laertes', which resolves to Ulysses by longest match."
+    },
+    {
+      "id": "eumaeus",
+      "canonical_name": "Eumaeus",
+      "aliases": ["Eumaeus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "euryclea",
+      "canonical_name": "Euryclea",
+      "greek_name": "Eurycleia",
+      "aliases": ["Euryclea"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "antinous",
+      "canonical_name": "Antinous",
+      "aliases": ["Antinous"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "eurymachus",
+      "canonical_name": "Eurymachus",
+      "aliases": ["Eurymachus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "amphinomus",
+      "canonical_name": "Amphinomus",
+      "aliases": ["Amphinomus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "melanthius",
+      "canonical_name": "Melanthius",
+      "aliases": ["Melanthius"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "irus",
+      "canonical_name": "Irus",
+      "aliases": ["Irus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "nausicaa",
+      "canonical_name": "Nausicaa",
+      "aliases": ["Nausicaa"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "alcinous",
+      "canonical_name": "Alcinous",
+      "aliases": ["Alcinous"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "arete",
+      "canonical_name": "Arete",
+      "aliases": ["Arete"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "demodocus",
+      "canonical_name": "Demodocus",
+      "aliases": ["Demodocus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "pisistratus",
+      "canonical_name": "Pisistratus",
+      "greek_name": "Peisistratus",
+      "aliases": ["Pisistratus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "teiresias",
+      "canonical_name": "Teiresias",
+      "greek_name": "Tiresias",
+      "aliases": ["Teiresias"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "eurylochus",
+      "canonical_name": "Eurylochus",
+      "aliases": ["Eurylochus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "elpenor",
+      "canonical_name": "Elpenor",
+      "aliases": ["Elpenor"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "philoetius",
+      "canonical_name": "Philoetius",
+      "aliases": ["Philoetius"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "theoclymenus",
+      "canonical_name": "Theoclymenus",
+      "aliases": ["Theoclymenus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "phemius",
+      "canonical_name": "Phemius",
+      "aliases": ["Phemius"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "aegisthus",
+      "canonical_name": "Aegisthus",
+      "aliases": ["Aegisthus"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"]
+    },
+    {
+      "id": "clytemnestra",
+      "canonical_name": "Clytemnestra",
+      "aliases": ["Clytemnestra"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"]
+    },
+    {
+      "id": "orestes",
+      "canonical_name": "Orestes",
+      "aliases": ["Orestes"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["iliad", "odyssey"],
+      "notes": "Agamemnon's son. The Iliad also names two minor fighters called Orestes; mention counts mix them."
+    },
+    {
+      "id": "mentor",
+      "canonical_name": "Mentor",
+      "aliases": ["Mentor"],
+      "epithets": [],
+      "patronymics": [],
+      "work_presence": ["odyssey"],
+      "notes": "Ulysses' friend, whose shape Minerva takes. The single Iliad occurrence is a different Mentor (father of Imbrius, book 13)."
+    }
+  ],
+  "collectives": [
+    {
+      "id": "sons_of_atreus",
+      "canonical_name": "the sons of Atreus",
+      "members": ["agamemnon", "menelaus"],
+      "surface_forms": ["sons of Atreus"],
+      "notes": "Plural is a collective reference to both brothers; singular 'son of Atreus' is ambiguous between them."
+    },
+    {
+      "id": "ajaxes",
+      "canonical_name": "the two Ajaxes",
+      "members": ["ajax_telamon", "ajax_oileus"],
+      "surface_forms": ["the two Ajaxes", "the Ajaxes", "Ajaxes"],
+      "notes": "Collective reference to both Ajaxes as Butler renders the Homeric dual."
+    }
+  ]
+}
