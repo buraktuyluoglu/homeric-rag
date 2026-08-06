@@ -1,0 +1,5 @@
+# Keep LF everywhere so the deterministic-rebuild hash of data/chunks.jsonl
+# holds on any checkout (Windows included).
+* text=auto eol=lf
+*.png binary
+*.onnx binary
