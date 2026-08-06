@@ -187,19 +187,30 @@ def print_summary(results: dict[str, Any]) -> None:
     hist = results["class_histogram"]
     classes = ", ".join(f"{t} {n}" for t, n in hist.items())
     print(f"\n{results['n_questions']} questions: {classes}")
-    print(f"\n{'type':<14}{'n':>3}  " + "  ".join(f"{'plain@' + str(k):>8}" for k in KS)
-          + "  " + "  ".join(f"{'ent@' + str(k):>8}" for k in KS))
+    print(
+        f"\n{'type':<14}{'n':>3}  "
+        + "  ".join(f"{'plain@' + str(k):>8}" for k in KS)
+        + "  "
+        + "  ".join(f"{'ent@' + str(k):>8}" for k in KS)
+    )
     plain, entity = results["metrics"]["plain"], results["metrics"]["entity"]
-    rows = [*((t, plain["per_type"][t], entity["per_type"][t]) for t in plain["per_type"]),
-            ("overall", plain["overall"], entity["overall"])]
+    rows = [
+        *((t, plain["per_type"][t], entity["per_type"][t]) for t in plain["per_type"]),
+        ("overall", plain["overall"], entity["overall"]),
+    ]
     for name, p, e in rows:
-        print(f"{name:<14}{p['n']:>3}  "
-              + "  ".join(f"{p[f'hit@{k}']:>8.2f}" for k in KS) + "  "
-              + "  ".join(f"{e[f'hit@{k}']:>8.2f}" for k in KS))
+        print(
+            f"{name:<14}{p['n']:>3}  "
+            + "  ".join(f"{p[f'hit@{k}']:>8.2f}" for k in KS)
+            + "  "
+            + "  ".join(f"{e[f'hit@{k}']:>8.2f}" for k in KS)
+        )
     for system in ("plain", "entity"):
         ref = results["no_answer_refusal"][system]
-        print(f"{system} refusal: {ref['n_refused']}/{ref['n_no_answer']} "
-              f"no-answer questions below floor {ref['floor']}")
+        print(
+            f"{system} refusal: {ref['n_refused']}/{ref['n_no_answer']} "
+            f"no-answer questions below floor {ref['floor']}"
+        )
 
 
 if __name__ == "__main__":
