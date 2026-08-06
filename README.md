@@ -89,10 +89,24 @@ mentions stay ambiguous on purpose (142 of them bare "Ajax").
 
 ## Reproduce
 
+macOS / Linux:
+
 ```bash
-python -m venv .venv && .venv\Scripts\pip install -e ".[dev]"
-.venv\Scripts\homeric-rag eval   # writes out/results.json (first run downloads the embedding model)
-.venv\Scripts\pytest
+python -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
+homeric-rag eval   # writes out/results.json (first run downloads the embedding model)
+pytest
+```
+
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -e ".[dev]"
+homeric-rag eval
+pytest
 ```
 
 Everything the eval needs (chunks, annotations, embeddings, questions) is

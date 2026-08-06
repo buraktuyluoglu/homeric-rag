@@ -10,11 +10,13 @@ readme = "README.md"
 license = { file = "LICENSE" }
 authors = [{ name = "Burak Emre Tüylüoğlu" }]
 requires-python = ">=3.12"
+# Bounded so a future resolve stays near the versions the committed run
+# used (recorded in out/results.json under "library_versions").
 dependencies = [
-    "onnxruntime",
-    "transformers",
-    "numpy",
-    "huggingface_hub",
+    "onnxruntime>=1.17,<2",
+    "transformers>=4.40,<6",
+    "numpy>=1.26,<3",
+    "huggingface_hub>=0.23,<2",
 ]
 
 [project.optional-dependencies]

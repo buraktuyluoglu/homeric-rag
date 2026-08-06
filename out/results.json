@@ -9,6 +9,12 @@
     "no-answer": 6
   },
   "embedding_model": "bge-small-en-v1.5",
+  "library_versions": {
+    "onnxruntime": "1.28.0",
+    "transformers": "5.14.1",
+    "numpy": "2.5.1",
+    "huggingface_hub": "1.26.1"
+  },
   "systems": {
     "plain_hybrid": "RRF(bm25, dense) over the raw query",
     "entity_aware": "RRF(bm25, dense, entity-match) over the entity-expanded query"

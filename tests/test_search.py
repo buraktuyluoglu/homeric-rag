@@ -49,8 +49,8 @@ class TestBM25:
             }
         )
         ranking = idx.rank("ships")
-        assert [doc for doc, _ in ranking[:2]] == ["a", "b"]
-        assert ranking[2][1] == 0.0
+        assert [doc for doc, _ in ranking] == ["a", "b"]
+        # "c" has no query term: dropped, not ranked at zero.
 
     def test_ties_keep_corpus_order(self):
         idx = BM25Index({"a": "same text", "b": "same text", "c": "same text"})

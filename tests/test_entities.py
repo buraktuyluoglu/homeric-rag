@@ -244,6 +244,7 @@ def test_chunk_entities_file_is_current():
     chunks = load_chunks()
     assert len(records) == len(chunks)
     by_id = {c["id"]: c for c in chunks}
-    # Spot-check a deterministic sample across both works.
-    for record in records[:: max(1, len(records) // 20)]:
+    # Every record: the full regex pass over 719 chunks takes seconds, and
+    # a stale annotation anywhere silently skews the entity ranking.
+    for record in records:
         assert record == chunk_entities(by_id[record["id"]])

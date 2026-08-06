@@ -143,15 +143,17 @@ class EntityIndex:
         return all(token in CONNECTOR_WORDS for token in _GAP_TOKEN.split(gap) if token)
 
 
-_default_index: EntityIndex | None = None
+_indexes: dict[Path, EntityIndex] = {}
 
 
 def default_index(data_dir: Path = DATA_DIR) -> EntityIndex:
-    global _default_index
-    if _default_index is None:
+    """Cached per resolved data_dir, so callers with different data dirs
+    (tests, a future agent) never receive an index built for another one."""
+    key = data_dir.resolve()
+    if key not in _indexes:
         roster = json.loads((data_dir / "characters.json").read_text(encoding="utf-8"))
-        _default_index = EntityIndex(roster)
-    return _default_index
+        _indexes[key] = EntityIndex(roster)
+    return _indexes[key]
 
 
 def resolve_mentions(text: str) -> list[Mention]:

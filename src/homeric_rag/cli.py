@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import sys
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
@@ -58,9 +57,7 @@ def main(argv: list[str] | None = None) -> int:
 
         run_eval()
         return 0
-
-    print(f"unknown command {args.command!r}", file=sys.stderr)
-    return 2
+    raise AssertionError(f"unhandled command {args.command!r}")
 
 
 def run_search(query: str, mode: str, k: int) -> int:

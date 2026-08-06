@@ -2,10 +2,11 @@
 
 Constants mirror hybrid-retrieval-lab (and the production system that lab
 grew out of): BM25 k1=1.2, b=0.75 with the same idf formula and tokenizer;
-Reciprocal Rank Fusion with k=60. Every ranker returns the corpus ordered
-best-first as (chunk_id, score) pairs so rank positions are always
-comparable across methods, and ties keep corpus order (stable sorts), so
-identical inputs always produce identical rankings.
+Reciprocal Rank Fusion with k=60. Every ranker returns (chunk_id, score)
+pairs ordered best-first with ties keeping corpus order (stable sorts), so
+identical inputs always produce identical rankings. BM25 covers only docs
+with a query-term match; dense covers the whole corpus — RRF fuses subset
+rankings by giving absent docs no contribution.
 """
 
 from __future__ import annotations
@@ -91,9 +92,13 @@ class BM25Index:
         return score
 
     def rank(self, query: str) -> Ranking:
-        """All docs scored, descending; ties keep corpus order."""
+        """Docs with at least one matching query term, descending; ties
+        keep corpus order. Zero-score docs are dropped (mirroring
+        entity_rank) so RRF fusion never receives a corpus-order signal
+        from docs BM25 knows nothing about."""
         terms = set(tokenize(query))
         scored = [(self.ids[i], self.score(terms, i)) for i in range(self.n)]
+        scored = [pair for pair in scored if pair[1] > 0.0]
         scored.sort(key=lambda pair: -pair[1])
         return scored
 

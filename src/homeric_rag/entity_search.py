@@ -74,6 +74,10 @@ class EntitySearchResult:
     entities: QueryEntities
     expansion_terms: tuple[str, ...]
     ranking: Ranking
+    # Component dense ranking over expanded_query (== query when no
+    # entities resolved), exposed so callers needing the top cosine do
+    # not have to re-embed the query.
+    dense_ranking: Ranking
 
 
 class QueryResolver:
@@ -190,22 +194,25 @@ class EntitySearch:
     def search(self, query: str) -> EntitySearchResult:
         entities = self.resolver.resolve(query)
         if entities.is_empty:
+            dense = self.index.dense_rank(query)
             return EntitySearchResult(
                 query=query,
                 expanded_query=query,
                 entities=entities,
                 expansion_terms=(),
-                ranking=self.index.hybrid_rank(query),
+                ranking=rrf_fuse([self.index.bm25_rank(query), dense]),
+                dense_ranking=dense,
             )
 
         terms = self.resolver.expansion_terms(entities)
         new_terms = [t for t in terms if t.lower() not in query.lower()]
         expanded = query + (" " + " ".join(new_terms) if new_terms else "")
 
+        dense = self.index.dense_rank(expanded)
         ranking = rrf_fuse(
             [
                 self.index.bm25_rank(expanded),
-                self.index.dense_rank(expanded),
+                dense,
                 self.entity_rank(entities.target_ids),
             ]
         )
@@ -215,4 +222,5 @@ class EntitySearch:
             entities=entities,
             expansion_terms=terms,
             ranking=ranking,
+            dense_ranking=dense,
         )

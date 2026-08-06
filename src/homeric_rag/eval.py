@@ -30,12 +30,13 @@ what they retrieved with.
 
 from __future__ import annotations
 
+import importlib.metadata
 import json
 from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from homeric_rag.search import DATA_DIR, Ranking, SearchIndex
+from homeric_rag.search import DATA_DIR, Ranking, SearchIndex, rrf_fuse
 
 QUESTIONS_PATH = DATA_DIR / "eval_questions.jsonl"
 OUT_DIR = Path(__file__).resolve().parents[2] / "out"
@@ -116,11 +117,15 @@ def run_eval(data_dir: Path = DATA_DIR, out_dir: Path = OUT_DIR) -> dict[str, An
     for q in questions:
         query, gold = q["question"], q["gold_passages"]
 
-        plain_ranking = index.hybrid_rank(query)
-        plain_cosine = index.dense_rank(query)[0][1]
+        # Embed each query once per system: fuse the plain baseline from
+        # its component rankings and take the entity-side cosine from the
+        # dense ranking the entity search already computed.
+        plain_dense = index.dense_rank(query)
+        plain_ranking = rrf_fuse([index.bm25_rank(query), plain_dense])
+        plain_cosine = plain_dense[0][1]
 
         result = entity_search.search(query)
-        entity_cosine = index.dense_rank(result.expanded_query)[0][1]
+        entity_cosine = result.dense_ranking[0][1]
 
         def measure(ranking: Ranking, cosine: float, gold: list[str] = gold) -> dict[str, Any]:
             return {
@@ -151,6 +156,10 @@ def run_eval(data_dir: Path = DATA_DIR, out_dir: Path = OUT_DIR) -> dict[str, An
         "n_questions": len(questions),
         "class_histogram": class_histogram(questions),
         "embedding_model": MODEL_NAME,
+        "library_versions": {
+            name: importlib.metadata.version(name)
+            for name in ("onnxruntime", "transformers", "numpy", "huggingface_hub")
+        },
         "systems": {
             "plain_hybrid": "RRF(bm25, dense) over the raw query",
             "entity_aware": "RRF(bm25, dense, entity-match) over the entity-expanded query",

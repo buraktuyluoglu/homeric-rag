@@ -26,7 +26,13 @@ import numpy as np
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 EMBEDDINGS_PATH = DATA_DIR / "embeddings.npz"
-MODEL_CACHE = Path(os.environ.get("HOMERIC_RAG_MODEL_CACHE", ".cache/hf"))
+# Anchored to the repo root (like DATA_DIR) so running from any cwd reuses
+# the same downloaded model instead of re-fetching into a new .cache/hf.
+MODEL_CACHE = Path(
+    os.environ.get(
+        "HOMERIC_RAG_MODEL_CACHE", str(Path(__file__).resolve().parents[2] / ".cache" / "hf")
+    )
+)
 
 MODEL_REPO = "Xenova/bge-small-en-v1.5"
 # Pinned to the same snapshot hybrid-retrieval-lab recorded its runs with.
