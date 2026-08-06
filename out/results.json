@@ -1,0 +1,2231 @@
+{
+  "dataset": "data/eval_questions.jsonl",
+  "n_questions": 51,
+  "class_histogram": {
+    "alias": 12,
+    "homonym": 10,
+    "cross-book": 6,
+    "plain-factual": 17,
+    "no-answer": 6
+  },
+  "embedding_model": "bge-small-en-v1.5",
+  "systems": {
+    "plain_hybrid": "RRF(bm25, dense) over the raw query",
+    "entity_aware": "RRF(bm25, dense, entity-match) over the entity-expanded query"
+  },
+  "metrics": {
+    "plain": {
+      "overall": {
+        "n": 45,
+        "hit@1": 0.3111,
+        "hit@3": 0.4222,
+        "hit@5": 0.6444
+      },
+      "per_type": {
+        "alias": {
+          "n": 12,
+          "hit@1": 0.0833,
+          "hit@3": 0.1667,
+          "hit@5": 0.4167
+        },
+        "homonym": {
+          "n": 10,
+          "hit@1": 0.2,
+          "hit@3": 0.4,
+          "hit@5": 0.8
+        },
+        "cross-book": {
+          "n": 6,
+          "hit@1": 0.3333,
+          "hit@3": 0.3333,
+          "hit@5": 0.6667
+        },
+        "plain-factual": {
+          "n": 17,
+          "hit@1": 0.5294,
+          "hit@3": 0.6471,
+          "hit@5": 0.7059
+        }
+      }
+    },
+    "entity": {
+      "overall": {
+        "n": 45,
+        "hit@1": 0.2,
+        "hit@3": 0.4889,
+        "hit@5": 0.5778
+      },
+      "per_type": {
+        "alias": {
+          "n": 12,
+          "hit@1": 0.25,
+          "hit@3": 0.6667,
+          "hit@5": 0.8333
+        },
+        "homonym": {
+          "n": 10,
+          "hit@1": 0.0,
+          "hit@3": 0.1,
+          "hit@5": 0.2
+        },
+        "cross-book": {
+          "n": 6,
+          "hit@1": 0.3333,
+          "hit@3": 0.5,
+          "hit@5": 0.6667
+        },
+        "plain-factual": {
+          "n": 17,
+          "hit@1": 0.2353,
+          "hit@3": 0.5882,
+          "hit@5": 0.5882
+        }
+      }
+    }
+  },
+  "no_answer_refusal": {
+    "plain": {
+      "floor": 0.5599,
+      "floor_basis": "minimum top-1 dense cosine over answerable questions in this run",
+      "n_no_answer": 6,
+      "n_refused": 1,
+      "refusal_rate": 0.1667,
+      "refused_ids": [
+        "noans-01"
+      ],
+      "false_refusal_rate_answerable": 0.0,
+      "false_refusal_note": "zero by construction — the floor is calibrated as the minimum answerable top score in the same run"
+    },
+    "entity": {
+      "floor": 0.5599,
+      "floor_basis": "minimum top-1 dense cosine over answerable questions in this run",
+      "n_no_answer": 6,
+      "n_refused": 1,
+      "refusal_rate": 0.1667,
+      "refused_ids": [
+        "noans-01"
+      ],
+      "false_refusal_rate_answerable": 0.0,
+      "false_refusal_note": "zero by construction — the floor is calibrated as the minimum answerable top score in the same run"
+    }
+  },
+  "questions": [
+    {
+      "id": "alias-01",
+      "type": "alias",
+      "question": "Whom did the son of Peleus slay at the river after the rout of the Trojans?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-21-000",
+        "iliad-21-001",
+        "iliad-21-003"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-21-007",
+          "iliad-21-005",
+          "iliad-21-006",
+          "iliad-05-002",
+          "iliad-16-007"
+        ],
+        "top_cosine": 0.7543,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-21-004",
+          "iliad-21-003",
+          "iliad-21-006",
+          "iliad-21-000",
+          "iliad-22-000"
+        ],
+        "top_cosine": 0.7918,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "son of Peleus": "achilles"
+        },
+        "ambiguous": {},
+        "expanded_query": "Whom did the son of Peleus slay at the river after the rout of the Trojans? Achilles"
+      }
+    },
+    {
+      "id": "alias-02",
+      "type": "alias",
+      "question": "How did Odysseus and his men escape from the cave of the Cyclops?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-09-011",
+        "odyssey-09-012"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-09-012",
+          "odyssey-09-011",
+          "odyssey-10-011",
+          "odyssey-09-010",
+          "odyssey-09-008"
+        ],
+        "top_cosine": 0.7023,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-01-001",
+          "odyssey-09-013",
+          "odyssey-09-011",
+          "odyssey-09-012",
+          "odyssey-10-011"
+        ],
+        "top_cosine": 0.7519,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Odysseus": "odysseus",
+          "the Cyclops": "polyphemus"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Odysseus and his men escape from the cave of the Cyclops? Ulysses Polyphemus"
+      }
+    },
+    {
+      "id": "alias-03",
+      "type": "alias",
+      "question": "What herb did the slayer of Argus give Odysseus as protection against Circe's drugs?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-10-008"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-10-007",
+          "odyssey-10-009",
+          "iliad-24-012",
+          "iliad-11-022",
+          "odyssey-10-008"
+        ],
+        "top_cosine": 0.6247,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-10-012",
+          "odyssey-10-007",
+          "iliad-24-012",
+          "odyssey-01-001",
+          "odyssey-10-008"
+        ],
+        "top_cosine": 0.6955,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "resolved": {
+          "slayer of Argus": "hermes",
+          "Odysseus": "odysseus",
+          "Circe": "circe"
+        },
+        "ambiguous": {},
+        "expanded_query": "What herb did the slayer of Argus give Odysseus as protection against Circe's drugs? Mercury Hermes Ulysses"
+      }
+    },
+    {
+      "id": "alias-04",
+      "type": "alias",
+      "question": "Which two gods did the son of Tydeus wound in battle?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-05-008",
+        "iliad-05-021"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-05-003",
+          "iliad-05-008",
+          "iliad-05-020",
+          "iliad-08-003",
+          "iliad-05-000"
+        ],
+        "top_cosine": 0.7224,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-05-000",
+          "iliad-05-020",
+          "iliad-05-003",
+          "iliad-11-009",
+          "iliad-05-021"
+        ],
+        "top_cosine": 0.7776,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "resolved": {
+          "son of Tydeus": "diomedes"
+        },
+        "ambiguous": {},
+        "expanded_query": "Which two gods did the son of Tydeus wound in battle? Diomed Diomedes"
+      }
+    },
+    {
+      "id": "alias-05",
+      "type": "alias",
+      "question": "How did the son of Laertes get the scar on his leg?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-19-010",
+        "odyssey-19-011",
+        "odyssey-19-012"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-16-008",
+          "odyssey-24-008",
+          "iliad-04-012",
+          "odyssey-19-012",
+          "odyssey-19-010"
+        ],
+        "top_cosine": 0.6793,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-19-012",
+          "odyssey-24-008",
+          "odyssey-19-010",
+          "odyssey-24-012",
+          "odyssey-22-008"
+        ],
+        "top_cosine": 0.7091,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "son of Laertes": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did the son of Laertes get the scar on his leg? Ulysses Odysseus"
+      }
+    },
+    {
+      "id": "alias-06",
+      "type": "alias",
+      "question": "In whose guise did Athena appear when she first visited Telemachus in Ithaca?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-01-002",
+        "odyssey-01-004"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-01-000",
+          "odyssey-02-000",
+          "odyssey-16-005",
+          "odyssey-15-000",
+          "odyssey-15-013"
+        ],
+        "top_cosine": 0.6672,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "odyssey-16-005",
+          "odyssey-01-002",
+          "odyssey-15-000",
+          "odyssey-02-010",
+          "odyssey-16-011"
+        ],
+        "top_cosine": 0.7266,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Athena": "athena",
+          "Telemachus": "telemachus"
+        },
+        "ambiguous": {},
+        "expanded_query": "In whose guise did Athena appear when she first visited Telemachus in Ithaca? Minerva"
+      }
+    },
+    {
+      "id": "alias-07",
+      "type": "alias",
+      "question": "Why does Poseidon bear a grudge against Odysseus?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-01-001",
+        "odyssey-11-002",
+        "odyssey-13-008"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-13-012",
+          "iliad-17-017",
+          "odyssey-18-000",
+          "iliad-05-021",
+          "iliad-01-005"
+        ],
+        "top_cosine": 0.6762,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "odyssey-01-001",
+          "odyssey-09-014",
+          "odyssey-11-010",
+          "odyssey-13-003",
+          "odyssey-18-000"
+        ],
+        "top_cosine": 0.7306,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Poseidon": "poseidon",
+          "Odysseus": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Why does Poseidon bear a grudge against Odysseus? Neptune Ulysses"
+      }
+    },
+    {
+      "id": "alias-08",
+      "type": "alias",
+      "question": "Whose fates did the son of Saturn weigh in his golden scales before the Scaean gates?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-22-005"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-05-018",
+          "iliad-21-014",
+          "iliad-01-012",
+          "iliad-06-005",
+          "iliad-02-009"
+        ],
+        "top_cosine": 0.6407,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-05-018",
+          "iliad-01-012",
+          "iliad-08-000",
+          "iliad-08-010",
+          "iliad-05-010"
+        ],
+        "top_cosine": 0.6959,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "son of Saturn": "zeus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Whose fates did the son of Saturn weigh in his golden scales before the Scaean gates? Jove Zeus"
+      }
+    },
+    {
+      "id": "alias-09",
+      "type": "alias",
+      "question": "Who forged new armour for the son of Peleus after his own armour was lost?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-18-009",
+        "iliad-18-010",
+        "iliad-18-011"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-17-004",
+          "iliad-18-002",
+          "iliad-07-003",
+          "iliad-17-005",
+          "iliad-23-007"
+        ],
+        "top_cosine": 0.714,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-21-004",
+          "iliad-16-000",
+          "iliad-18-000",
+          "iliad-23-021",
+          "iliad-20-010"
+        ],
+        "top_cosine": 0.7626,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "son of Peleus": "achilles"
+        },
+        "ambiguous": {},
+        "expanded_query": "Who forged new armour for the son of Peleus after his own armour was lost? Achilles"
+      }
+    },
+    {
+      "id": "alias-10",
+      "type": "alias",
+      "question": "How did Hera beguile Zeus on Mount Ida?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-14-004",
+        "iliad-14-005"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-03-009",
+          "iliad-14-007",
+          "iliad-24-008",
+          "iliad-14-008",
+          "iliad-21-011"
+        ],
+        "top_cosine": 0.685,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-15-003",
+          "iliad-08-010",
+          "iliad-14-004",
+          "iliad-14-005",
+          "iliad-14-007"
+        ],
+        "top_cosine": 0.7566,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Hera": "hera",
+          "Zeus": "zeus"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Hera beguile Zeus on Mount Ida? Juno Jove"
+      }
+    },
+    {
+      "id": "alias-11",
+      "type": "alias",
+      "question": "How did Hermes help Priam reach the tent of the son of Peleus unseen?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-24-009",
+        "iliad-24-012"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-24-016",
+          "iliad-24-015",
+          "iliad-20-005",
+          "iliad-24-011",
+          "iliad-24-012"
+        ],
+        "top_cosine": 0.7176,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-24-012",
+          "iliad-24-004",
+          "iliad-24-016",
+          "iliad-24-011",
+          "iliad-24-009"
+        ],
+        "top_cosine": 0.7895,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Hermes": "hermes",
+          "Priam": "priam",
+          "son of Peleus": "achilles"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Hermes help Priam reach the tent of the son of Peleus unseen? Mercury Achilles"
+      }
+    },
+    {
+      "id": "alias-12",
+      "type": "alias",
+      "question": "Which goddess snatched Paris away when Menelaus was about to overcome him in their duel?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-03-008"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-03-009",
+          "iliad-03-000",
+          "iliad-13-017",
+          "iliad-03-007",
+          "iliad-06-012"
+        ],
+        "top_cosine": 0.6882,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-03-009",
+          "iliad-03-000",
+          "iliad-03-008",
+          "iliad-03-007",
+          "iliad-07-009"
+        ],
+        "top_cosine": 0.741,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Paris": "paris",
+          "Menelaus": "menelaus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Which goddess snatched Paris away when Menelaus was about to overcome him in their duel? Alexandrus Paris (Alexandros)"
+      }
+    },
+    {
+      "id": "homonym-01",
+      "type": "homonym",
+      "question": "How did Ajax son of Oileus die on his voyage home?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-04-012"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-04-012",
+          "iliad-14-013",
+          "iliad-12-010",
+          "iliad-13-018",
+          "iliad-15-012"
+        ],
+        "top_cosine": 0.6991,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-13-018",
+          "iliad-12-010",
+          "iliad-23-020",
+          "iliad-13-001",
+          "iliad-14-013"
+        ],
+        "top_cosine": 0.7159,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Ajax son of Oileus": "ajax_oileus"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Ajax son of Oileus die on his voyage home? Ajax (son of Oileus) Locrian Ajax"
+      }
+    },
+    {
+      "id": "homonym-02",
+      "type": "homonym",
+      "question": "Which Ajax was chosen by lot to meet Hector in single combat, and how did the duel end?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-07-004",
+        "iliad-07-007"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-07-000",
+          "iliad-07-004",
+          "iliad-07-006",
+          "iliad-13-018",
+          "iliad-17-004"
+        ],
+        "top_cosine": 0.6947,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-13-018",
+          "iliad-12-010",
+          "iliad-07-006",
+          "iliad-13-001",
+          "iliad-07-005"
+        ],
+        "top_cosine": 0.7578,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Hector": "hector"
+        },
+        "ambiguous": {
+          "Ajax": [
+            "ajax_oileus",
+            "ajax_telamon"
+          ]
+        },
+        "expanded_query": "Which Ajax was chosen by lot to meet Hector in single combat, and how did the duel end? Ajax (son of Oileus) Locrian Ajax Ajax son of Oileus Ajax (son of Telamon) Telamonian Ajax Ajax son of Telamon Ajax, son of Telamon"
+      }
+    },
+    {
+      "id": "homonym-03",
+      "type": "homonym",
+      "question": "Which Ajax slipped in the offal during the foot-race at the funeral games?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-23-020"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-23-020",
+          "iliad-17-007",
+          "iliad-23-000",
+          "iliad-23-013",
+          "iliad-11-014"
+        ],
+        "top_cosine": 0.5861,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-12-010",
+          "iliad-13-018",
+          "iliad-23-020",
+          "iliad-13-005",
+          "iliad-02-012"
+        ],
+        "top_cosine": 0.7189,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {},
+        "ambiguous": {
+          "Ajax": [
+            "ajax_oileus",
+            "ajax_telamon"
+          ]
+        },
+        "expanded_query": "Which Ajax slipped in the offal during the foot-race at the funeral games? Ajax (son of Oileus) Locrian Ajax Ajax son of Oileus Ajax (son of Telamon) Telamonian Ajax Ajax son of Telamon Ajax, son of Telamon"
+      }
+    },
+    {
+      "id": "homonym-04",
+      "type": "homonym",
+      "question": "With whom did Ajax wrestle for a prize at the funeral games of Patroclus?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-23-018",
+        "iliad-23-019"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-23-000",
+          "iliad-23-020",
+          "iliad-23-021",
+          "iliad-23-019",
+          "iliad-17-007"
+        ],
+        "top_cosine": 0.6563,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-12-010",
+          "iliad-13-018",
+          "iliad-23-000",
+          "iliad-23-020",
+          "iliad-17-007"
+        ],
+        "top_cosine": 0.7489,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Patroclus": "patroclus"
+        },
+        "ambiguous": {
+          "Ajax": [
+            "ajax_oileus",
+            "ajax_telamon"
+          ]
+        },
+        "expanded_query": "With whom did Ajax wrestle for a prize at the funeral games of Patroclus? Ajax (son of Oileus) Locrian Ajax Ajax son of Oileus Ajax (son of Telamon) Telamonian Ajax Ajax son of Telamon Ajax, son of Telamon"
+      }
+    },
+    {
+      "id": "homonym-05",
+      "type": "homonym",
+      "question": "Whose ghost held aloof from Odysseus in the house of Hades, still angry over the armour of Achilles?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-11-013"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-24-000",
+          "odyssey-11-004",
+          "odyssey-11-013",
+          "odyssey-11-011",
+          "odyssey-10-013"
+        ],
+        "top_cosine": 0.7123,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-11-011",
+          "odyssey-24-000",
+          "iliad-22-005",
+          "iliad-09-017",
+          "odyssey-10-013"
+        ],
+        "top_cosine": 0.7532,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Odysseus": "odysseus",
+          "Hades": "hades",
+          "Achilles": "achilles"
+        },
+        "ambiguous": {},
+        "expanded_query": "Whose ghost held aloof from Odysseus in the house of Hades, still angry over the armour of Achilles? Ulysses"
+      }
+    },
+    {
+      "id": "homonym-06",
+      "type": "homonym",
+      "question": "Which son of Atreus was murdered at his homecoming, and by whom?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-03-004",
+        "odyssey-04-013"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-11-006",
+          "iliad-09-002",
+          "iliad-01-000",
+          "odyssey-04-013",
+          "iliad-03-010"
+        ],
+        "top_cosine": 0.6535,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-11-003",
+          "iliad-17-000",
+          "iliad-11-006",
+          "odyssey-03-006",
+          "iliad-06-001"
+        ],
+        "top_cosine": 0.72,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {},
+        "ambiguous": {
+          "son of Atreus": [
+            "agamemnon",
+            "menelaus"
+          ]
+        },
+        "expanded_query": "Which son of Atreus was murdered at his homecoming, and by whom? Agamemnon Menelaus"
+      }
+    },
+    {
+      "id": "homonym-07",
+      "type": "homonym",
+      "question": "Which son of Atreus was detained in Egypt on his way home from Troy?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-03-007",
+        "odyssey-04-008"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-09-000",
+          "iliad-11-003",
+          "odyssey-01-000",
+          "iliad-10-000",
+          "iliad-23-006"
+        ],
+        "top_cosine": 0.6612,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-04-004",
+          "odyssey-03-006",
+          "iliad-11-003",
+          "iliad-06-001",
+          "iliad-10-000"
+        ],
+        "top_cosine": 0.7328,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {},
+        "ambiguous": {
+          "son of Atreus": [
+            "agamemnon",
+            "menelaus"
+          ]
+        },
+        "expanded_query": "Which son of Atreus was detained in Egypt on his way home from Troy? Agamemnon Menelaus"
+      }
+    },
+    {
+      "id": "homonym-08",
+      "type": "homonym",
+      "question": "Which son of Telamon fought with the bow, sheltering behind his brother's shield?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-08-006",
+        "iliad-08-007"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-12-010",
+          "iliad-11-014",
+          "iliad-07-005",
+          "iliad-15-011",
+          "iliad-08-007"
+        ],
+        "top_cosine": 0.6609,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-12-010",
+          "iliad-15-011",
+          "iliad-15-012",
+          "iliad-08-007",
+          "iliad-11-014"
+        ],
+        "top_cosine": 0.7821,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "resolved": {},
+        "ambiguous": {
+          "son of Telamon": [
+            "ajax_telamon",
+            "teucer"
+          ]
+        },
+        "expanded_query": "Which son of Telamon fought with the bow, sheltering behind his brother's shield? Ajax (son of Telamon) Telamonian Ajax Ajax Ajax son of Telamon Ajax, son of Telamon Teucer"
+      }
+    },
+    {
+      "id": "homonym-09",
+      "type": "homonym",
+      "question": "What prophecy did the old man of the sea make to Menelaus about his death?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-04-014"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-09-013",
+          "odyssey-04-009",
+          "odyssey-03-007",
+          "odyssey-13-004",
+          "odyssey-04-004"
+        ],
+        "top_cosine": 0.6934,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-17-000",
+          "odyssey-03-007",
+          "iliad-17-016",
+          "odyssey-04-009",
+          "odyssey-03-006"
+        ],
+        "top_cosine": 0.7228,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Menelaus": "menelaus"
+        },
+        "ambiguous": {
+          "old man of the sea": [
+            "nereus",
+            "proteus"
+          ]
+        },
+        "expanded_query": "What prophecy did the old man of the sea make to Menelaus about his death? Nereus Proteus"
+      }
+    },
+    {
+      "id": "homonym-10",
+      "type": "homonym",
+      "question": "Which Ajax strode from deck to deck with a great sea-pike, defending the ships from Hector?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-15-017"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-07-005",
+          "iliad-11-013",
+          "iliad-14-010",
+          "iliad-05-015",
+          "iliad-15-017"
+        ],
+        "top_cosine": 0.6769,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-12-010",
+          "iliad-13-018",
+          "iliad-07-005",
+          "iliad-13-001",
+          "iliad-14-010"
+        ],
+        "top_cosine": 0.7557,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Hector": "hector"
+        },
+        "ambiguous": {
+          "Ajax": [
+            "ajax_oileus",
+            "ajax_telamon"
+          ]
+        },
+        "expanded_query": "Which Ajax strode from deck to deck with a great sea-pike, defending the ships from Hector? Ajax (son of Oileus) Locrian Ajax Ajax son of Oileus Ajax (son of Telamon) Telamonian Ajax Ajax son of Telamon Ajax, son of Telamon"
+      }
+    },
+    {
+      "id": "cross-01",
+      "type": "cross-book",
+      "question": "How did the quarrel between Agamemnon and Achilles over Briseis begin, and how was it ended?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-01-004",
+        "iliad-01-007",
+        "iliad-01-008",
+        "iliad-19-003",
+        "iliad-19-004"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-01-008",
+          "iliad-01-007",
+          "iliad-19-006",
+          "iliad-01-000",
+          "iliad-19-001"
+        ],
+        "top_cosine": 0.7776,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-01-008",
+          "iliad-01-007",
+          "iliad-19-006",
+          "iliad-01-000",
+          "iliad-19-001"
+        ],
+        "top_cosine": 0.7776,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Agamemnon": "agamemnon",
+          "Achilles": "achilles",
+          "Briseis": "briseis"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did the quarrel between Agamemnon and Achilles over Briseis begin, and how was it ended?"
+      }
+    },
+    {
+      "id": "cross-02",
+      "type": "cross-book",
+      "question": "What became of Achilles after the events at Troy?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-22-009",
+        "odyssey-11-011",
+        "odyssey-24-000",
+        "odyssey-24-002"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-22-003",
+          "iliad-18-009",
+          "iliad-20-012",
+          "iliad-21-001",
+          "iliad-22-004"
+        ],
+        "top_cosine": 0.7388,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-20-012",
+          "iliad-21-001",
+          "iliad-22-003",
+          "iliad-22-005",
+          "iliad-20-010"
+        ],
+        "top_cosine": 0.7388,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Achilles": "achilles"
+        },
+        "ambiguous": {},
+        "expanded_query": "What became of Achilles after the events at Troy?"
+      }
+    },
+    {
+      "id": "cross-03",
+      "type": "cross-book",
+      "question": "Where is the story of the wooden horse told, and who built it?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-08-012",
+        "odyssey-11-012"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-23-005",
+          "odyssey-23-008",
+          "odyssey-14-000",
+          "odyssey-08-012",
+          "iliad-23-008"
+        ],
+        "top_cosine": 0.5599,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-23-005",
+          "odyssey-23-008",
+          "odyssey-14-000",
+          "odyssey-08-012",
+          "iliad-23-008"
+        ],
+        "top_cosine": 0.5599,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "resolved": {},
+        "ambiguous": {},
+        "expanded_query": "Where is the story of the wooden horse told, and who built it?"
+      }
+    },
+    {
+      "id": "cross-04",
+      "type": "cross-book",
+      "question": "How did Patroclus die, and how was he honoured afterwards?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-16-021",
+        "iliad-16-022",
+        "iliad-23-000",
+        "iliad-23-003"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-18-002",
+          "iliad-16-019",
+          "iliad-16-023",
+          "iliad-16-000",
+          "iliad-19-005"
+        ],
+        "top_cosine": 0.7148,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-16-019",
+          "iliad-16-021",
+          "iliad-16-000",
+          "iliad-18-002",
+          "iliad-16-011"
+        ],
+        "top_cosine": 0.7148,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Patroclus": "patroclus"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Patroclus die, and how was he honoured afterwards?"
+      }
+    },
+    {
+      "id": "cross-05",
+      "type": "cross-book",
+      "question": "How did Penelope put off the suitors with her weaving, and where is the trick recounted?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-02-002",
+        "odyssey-19-003",
+        "odyssey-24-003"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-16-010",
+          "odyssey-17-014",
+          "odyssey-23-000",
+          "odyssey-23-009",
+          "odyssey-02-002"
+        ],
+        "top_cosine": 0.6256,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-17-014",
+          "odyssey-16-010",
+          "odyssey-23-000",
+          "odyssey-04-017",
+          "odyssey-04-020"
+        ],
+        "top_cosine": 0.6256,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Penelope": "penelope"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Penelope put off the suitors with her weaving, and where is the trick recounted?"
+      }
+    },
+    {
+      "id": "cross-06",
+      "type": "cross-book",
+      "question": "What part does Nestor play in the quarrel at Troy, and how does he receive Telemachus at Pylos?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-01-006",
+        "odyssey-03-000"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-03-000",
+          "odyssey-04-000",
+          "odyssey-03-011",
+          "odyssey-02-008",
+          "iliad-01-006"
+        ],
+        "top_cosine": 0.8002,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-03-000",
+          "odyssey-03-011",
+          "odyssey-02-008",
+          "odyssey-03-010",
+          "odyssey-04-004"
+        ],
+        "top_cosine": 0.8002,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Nestor": "nestor",
+          "Telemachus": "telemachus"
+        },
+        "ambiguous": {},
+        "expanded_query": "What part does Nestor play in the quarrel at Troy, and how does he receive Telemachus at Pylos?"
+      }
+    },
+    {
+      "id": "plain-01",
+      "type": "plain-factual",
+      "question": "Who was the priest whose daughter Agamemnon refused to release for a ransom?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-01-000",
+        "iliad-01-009"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-01-000",
+          "iliad-01-009",
+          "iliad-01-002",
+          "iliad-11-003",
+          "iliad-06-001"
+        ],
+        "top_cosine": 0.6035,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-11-003",
+          "iliad-01-002",
+          "iliad-01-009",
+          "iliad-01-000",
+          "iliad-11-006"
+        ],
+        "top_cosine": 0.6035,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Agamemnon": "agamemnon"
+        },
+        "ambiguous": {},
+        "expanded_query": "Who was the priest whose daughter Agamemnon refused to release for a ransom?"
+      }
+    },
+    {
+      "id": "plain-02",
+      "type": "plain-factual",
+      "question": "What happened to the men who ate the food of the Lotus-eaters?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-09-002"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-09-002",
+          "iliad-01-011",
+          "iliad-24-017",
+          "iliad-02-010",
+          "odyssey-09-005"
+        ],
+        "top_cosine": 0.6612,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-09-002",
+          "iliad-01-011",
+          "iliad-24-017",
+          "iliad-02-010",
+          "odyssey-09-005"
+        ],
+        "top_cosine": 0.6612,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {},
+        "ambiguous": {},
+        "expanded_query": "What happened to the men who ate the food of the Lotus-eaters?"
+      }
+    },
+    {
+      "id": "plain-03",
+      "type": "plain-factual",
+      "question": "Who recognised Ulysses by the scar while washing his feet?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-19-009",
+        "odyssey-19-010"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-19-010",
+          "odyssey-23-002",
+          "odyssey-04-006",
+          "odyssey-19-012",
+          "odyssey-23-001"
+        ],
+        "top_cosine": 0.7279,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-19-012",
+          "odyssey-19-010",
+          "odyssey-21-005",
+          "odyssey-04-006",
+          "odyssey-19-000"
+        ],
+        "top_cosine": 0.7334,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Ulysses": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Who recognised Ulysses by the scar while washing his feet? Odysseus"
+      }
+    },
+    {
+      "id": "plain-04",
+      "type": "plain-factual",
+      "question": "What did Circe do to the companions of Ulysses when they came to her house?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-10-005",
+        "odyssey-10-006"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-10-012",
+          "odyssey-12-000",
+          "odyssey-10-010",
+          "odyssey-20-000",
+          "odyssey-10-009"
+        ],
+        "top_cosine": 0.7139,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "odyssey-10-012",
+          "odyssey-10-010",
+          "odyssey-12-000",
+          "odyssey-08-011",
+          "odyssey-10-011"
+        ],
+        "top_cosine": 0.7496,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Circe": "circe",
+          "Ulysses": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "What did Circe do to the companions of Ulysses when they came to her house? Odysseus"
+      }
+    },
+    {
+      "id": "plain-05",
+      "type": "plain-factual",
+      "question": "What contest with the bow and twelve axes did Penelope set for the suitors?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-19-015",
+        "odyssey-21-000",
+        "odyssey-21-001"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-21-000",
+          "odyssey-19-015",
+          "odyssey-21-001",
+          "odyssey-21-002",
+          "odyssey-22-000"
+        ],
+        "top_cosine": 0.6469,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-19-015",
+          "odyssey-21-001",
+          "odyssey-21-008",
+          "odyssey-21-004",
+          "odyssey-21-000"
+        ],
+        "top_cosine": 0.6469,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Penelope": "penelope"
+        },
+        "ambiguous": {},
+        "expanded_query": "What contest with the bow and twelve axes did Penelope set for the suitors?"
+      }
+    },
+    {
+      "id": "plain-06",
+      "type": "plain-factual",
+      "question": "Which of the suitors did Ulysses kill first, and how?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-22-000"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-20-000",
+          "odyssey-22-005",
+          "odyssey-22-007",
+          "odyssey-22-000",
+          "odyssey-22-006"
+        ],
+        "top_cosine": 0.7246,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-22-007",
+          "odyssey-22-006",
+          "odyssey-22-005",
+          "odyssey-21-005",
+          "odyssey-20-000"
+        ],
+        "top_cosine": 0.7348,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Ulysses": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Which of the suitors did Ulysses kill first, and how? Odysseus"
+      }
+    },
+    {
+      "id": "plain-07",
+      "type": "plain-factual",
+      "question": "Which servant sheltered Ulysses in his hut when he first returned to Ithaca?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-14-000"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-14-000",
+          "odyssey-17-013",
+          "odyssey-16-003",
+          "odyssey-24-007",
+          "odyssey-16-004"
+        ],
+        "top_cosine": 0.6941,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-16-004",
+          "odyssey-14-000",
+          "odyssey-19-008",
+          "odyssey-17-006",
+          "odyssey-17-013"
+        ],
+        "top_cosine": 0.7087,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Ulysses": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Which servant sheltered Ulysses in his hut when he first returned to Ithaca? Odysseus"
+      }
+    },
+    {
+      "id": "plain-08",
+      "type": "plain-factual",
+      "question": "How did Ulysses contrive to hear the song of the Sirens without being destroyed?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-12-001",
+        "odyssey-12-004"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-12-004",
+          "odyssey-12-005",
+          "odyssey-08-012",
+          "odyssey-12-000",
+          "odyssey-08-013"
+        ],
+        "top_cosine": 0.6931,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-08-012",
+          "odyssey-12-004",
+          "odyssey-16-004",
+          "odyssey-14-012",
+          "iliad-02-004"
+        ],
+        "top_cosine": 0.717,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Ulysses": "odysseus",
+          "Sirens": "sirens"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Ulysses contrive to hear the song of the Sirens without being destroyed? Odysseus"
+      }
+    },
+    {
+      "id": "plain-09",
+      "type": "plain-factual",
+      "question": "What punishment fell on the crew after they killed the cattle of the sun-god?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-12-010",
+        "odyssey-12-011"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-12-009",
+          "odyssey-12-010",
+          "odyssey-12-007",
+          "odyssey-12-003",
+          "odyssey-12-008"
+        ],
+        "top_cosine": 0.7081,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-12-003",
+          "odyssey-12-009",
+          "odyssey-12-007",
+          "odyssey-01-000",
+          "odyssey-12-006"
+        ],
+        "top_cosine": 0.7157,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "sun-god": "helios"
+        },
+        "ambiguous": {},
+        "expanded_query": "What punishment fell on the crew after they killed the cattle of the sun-god? Helios Hyperion"
+      }
+    },
+    {
+      "id": "plain-10",
+      "type": "plain-factual",
+      "question": "How did Achilles kill Hector before the walls of Troy?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-22-007",
+        "iliad-22-008"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-22-000",
+          "iliad-22-005",
+          "iliad-22-006",
+          "iliad-18-008",
+          "iliad-24-001"
+        ],
+        "top_cosine": 0.7939,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-22-005",
+          "iliad-22-000",
+          "iliad-24-001",
+          "iliad-22-006",
+          "iliad-20-011"
+        ],
+        "top_cosine": 0.7939,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Achilles": "achilles",
+          "Hector": "hector"
+        },
+        "ambiguous": {},
+        "expanded_query": "How did Achilles kill Hector before the walls of Troy?"
+      }
+    },
+    {
+      "id": "plain-11",
+      "type": "plain-factual",
+      "question": "Where did Hector take leave of Andromache and his infant son?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-06-009"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-06-009",
+          "iliad-24-020",
+          "iliad-22-013",
+          "iliad-15-006",
+          "iliad-06-008"
+        ],
+        "top_cosine": 0.6897,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-06-009",
+          "iliad-17-002",
+          "iliad-06-008",
+          "iliad-22-005",
+          "iliad-24-020"
+        ],
+        "top_cosine": 0.6897,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Hector": "hector",
+          "Andromache": "andromache"
+        },
+        "ambiguous": {},
+        "expanded_query": "Where did Hector take leave of Andromache and his infant son?"
+      }
+    },
+    {
+      "id": "plain-12",
+      "type": "plain-factual",
+      "question": "What lying dream did Jove send to Agamemnon?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-02-000"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-02-000",
+          "iliad-02-001",
+          "iliad-11-007",
+          "iliad-01-000",
+          "odyssey-20-002"
+        ],
+        "top_cosine": 0.7749,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-02-000",
+          "iliad-01-000",
+          "iliad-02-001",
+          "iliad-11-007",
+          "iliad-01-012"
+        ],
+        "top_cosine": 0.8212,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Jove": "zeus",
+          "Agamemnon": "agamemnon"
+        },
+        "ambiguous": {},
+        "expanded_query": "What lying dream did Jove send to Agamemnon? Zeus"
+      }
+    },
+    {
+      "id": "plain-13",
+      "type": "plain-factual",
+      "question": "Who won the chariot race at the funeral games of Patroclus?",
+      "answerable": true,
+      "gold_passages": [
+        "iliad-23-010"
+      ],
+      "plain": {
+        "top5": [
+          "iliad-23-000",
+          "iliad-16-020",
+          "iliad-16-019",
+          "iliad-23-007",
+          "iliad-16-011"
+        ],
+        "top_cosine": 0.7108,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-23-000",
+          "iliad-16-019",
+          "iliad-16-020",
+          "iliad-16-011",
+          "iliad-16-021"
+        ],
+        "top_cosine": 0.7108,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Patroclus": "patroclus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Who won the chariot race at the funeral games of Patroclus?"
+      }
+    },
+    {
+      "id": "plain-14",
+      "type": "plain-factual",
+      "question": "What was the secret of the bed of Ulysses and Penelope?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-23-005"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-23-000",
+          "odyssey-23-006",
+          "odyssey-04-020",
+          "odyssey-19-001",
+          "odyssey-19-013"
+        ],
+        "top_cosine": 0.7133,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "odyssey-04-020",
+          "odyssey-19-001",
+          "odyssey-23-007",
+          "odyssey-23-000",
+          "odyssey-17-014"
+        ],
+        "top_cosine": 0.7305,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Ulysses": "odysseus",
+          "Penelope": "penelope"
+        },
+        "ambiguous": {},
+        "expanded_query": "What was the secret of the bed of Ulysses and Penelope? Odysseus"
+      }
+    },
+    {
+      "id": "plain-15",
+      "type": "plain-factual",
+      "question": "Which princess found Ulysses cast ashore and helped him on his way to the city?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-06-000",
+        "odyssey-06-003",
+        "odyssey-06-005"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-14-008",
+          "odyssey-19-007",
+          "odyssey-14-009",
+          "odyssey-05-006",
+          "odyssey-15-012"
+        ],
+        "top_cosine": 0.6806,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "odyssey-19-007",
+          "odyssey-14-008",
+          "iliad-02-004",
+          "odyssey-05-004",
+          "odyssey-14-009"
+        ],
+        "top_cosine": 0.709,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Ulysses": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Which princess found Ulysses cast ashore and helped him on his way to the city? Odysseus"
+      }
+    },
+    {
+      "id": "plain-16",
+      "type": "plain-factual",
+      "question": "What gift did Aeolus give Ulysses to help him home, and how was it wasted?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-10-000",
+        "odyssey-10-001"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-10-001",
+          "iliad-10-006",
+          "odyssey-10-000",
+          "odyssey-19-001",
+          "odyssey-14-004"
+        ],
+        "top_cosine": 0.7339,
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "iliad-10-006",
+          "odyssey-10-001",
+          "odyssey-19-007",
+          "odyssey-19-001",
+          "odyssey-14-003"
+        ],
+        "top_cosine": 0.7466,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Aeolus": "aeolus",
+          "Ulysses": "odysseus"
+        },
+        "ambiguous": {},
+        "expanded_query": "What gift did Aeolus give Ulysses to help him home, and how was it wasted? Odysseus"
+      }
+    },
+    {
+      "id": "plain-17",
+      "type": "plain-factual",
+      "question": "What advice did Circe give about passing between Scylla and Charybdis?",
+      "answerable": true,
+      "gold_passages": [
+        "odyssey-12-002",
+        "odyssey-12-003"
+      ],
+      "plain": {
+        "top5": [
+          "odyssey-12-000",
+          "odyssey-12-006",
+          "odyssey-12-003",
+          "odyssey-10-012",
+          "odyssey-10-007"
+        ],
+        "top_cosine": 0.6906,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true
+      },
+      "entity": {
+        "top5": [
+          "odyssey-12-006",
+          "odyssey-12-000",
+          "odyssey-12-003",
+          "odyssey-10-007",
+          "odyssey-10-012"
+        ],
+        "top_cosine": 0.6906,
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "resolved": {
+          "Circe": "circe",
+          "Scylla": "scylla",
+          "Charybdis": "charybdis"
+        },
+        "ambiguous": {},
+        "expanded_query": "What advice did Circe give about passing between Scylla and Charybdis?"
+      }
+    },
+    {
+      "id": "noans-01",
+      "type": "no-answer",
+      "question": "Who founded the city of Rome?",
+      "answerable": false,
+      "gold_passages": [],
+      "plain": {
+        "top5": [
+          "iliad-20-005",
+          "iliad-21-014",
+          "iliad-02-019",
+          "iliad-09-014",
+          "iliad-11-018"
+        ],
+        "top_cosine": 0.5569,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-20-005",
+          "iliad-21-014",
+          "iliad-02-019",
+          "iliad-09-014",
+          "iliad-11-018"
+        ],
+        "top_cosine": 0.5569,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {},
+        "ambiguous": {},
+        "expanded_query": "Who founded the city of Rome?"
+      }
+    },
+    {
+      "id": "noans-02",
+      "type": "no-answer",
+      "question": "What advice did the oracle at Delphi give to Croesus?",
+      "answerable": false,
+      "gold_passages": [],
+      "plain": {
+        "top5": [
+          "iliad-11-021",
+          "odyssey-03-007",
+          "iliad-24-003",
+          "odyssey-08-001",
+          "iliad-16-002"
+        ],
+        "top_cosine": 0.6272,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-11-021",
+          "odyssey-03-007",
+          "iliad-24-003",
+          "odyssey-08-001",
+          "iliad-16-002"
+        ],
+        "top_cosine": 0.6272,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {},
+        "ambiguous": {},
+        "expanded_query": "What advice did the oracle at Delphi give to Croesus?"
+      }
+    },
+    {
+      "id": "noans-03",
+      "type": "no-answer",
+      "question": "How was the infant Achilles made invulnerable by his mother?",
+      "answerable": false,
+      "gold_passages": [],
+      "plain": {
+        "top5": [
+          "iliad-19-000",
+          "iliad-24-001",
+          "iliad-22-013",
+          "iliad-18-000",
+          "odyssey-11-011"
+        ],
+        "top_cosine": 0.7086,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-24-001",
+          "iliad-18-000",
+          "iliad-19-000",
+          "iliad-16-000",
+          "iliad-21-004"
+        ],
+        "top_cosine": 0.7086,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Achilles": "achilles"
+        },
+        "ambiguous": {},
+        "expanded_query": "How was the infant Achilles made invulnerable by his mother?"
+      }
+    },
+    {
+      "id": "noans-04",
+      "type": "no-answer",
+      "question": "Whom did Telemachus marry in later life?",
+      "answerable": false,
+      "gold_passages": [],
+      "plain": {
+        "top5": [
+          "odyssey-02-005",
+          "odyssey-15-000",
+          "odyssey-16-009",
+          "odyssey-15-006",
+          "odyssey-17-001"
+        ],
+        "top_cosine": 0.6811,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "odyssey-02-005",
+          "odyssey-17-001",
+          "odyssey-03-000",
+          "odyssey-15-000",
+          "odyssey-15-006"
+        ],
+        "top_cosine": 0.6811,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Telemachus": "telemachus"
+        },
+        "ambiguous": {},
+        "expanded_query": "Whom did Telemachus marry in later life?"
+      }
+    },
+    {
+      "id": "noans-05",
+      "type": "no-answer",
+      "question": "What happened at the battle of Thermopylae?",
+      "answerable": false,
+      "gold_passages": [],
+      "plain": {
+        "top5": [
+          "iliad-11-007",
+          "odyssey-20-007",
+          "iliad-17-009",
+          "iliad-11-005",
+          "iliad-15-007"
+        ],
+        "top_cosine": 0.6408,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-11-007",
+          "odyssey-20-007",
+          "iliad-17-009",
+          "iliad-11-005",
+          "iliad-15-007"
+        ],
+        "top_cosine": 0.6408,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {},
+        "ambiguous": {},
+        "expanded_query": "What happened at the battle of Thermopylae?"
+      }
+    },
+    {
+      "id": "noans-06",
+      "type": "no-answer",
+      "question": "What route did Aeneas take to reach Italy after the fall of Troy?",
+      "answerable": false,
+      "gold_passages": [],
+      "plain": {
+        "top5": [
+          "iliad-20-007",
+          "iliad-20-008",
+          "iliad-05-008",
+          "iliad-17-008",
+          "iliad-16-016"
+        ],
+        "top_cosine": 0.6937,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false
+      },
+      "entity": {
+        "top5": [
+          "iliad-20-007",
+          "iliad-17-008",
+          "iliad-13-013",
+          "iliad-20-008",
+          "iliad-16-016"
+        ],
+        "top_cosine": 0.6937,
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "resolved": {
+          "Aeneas": "aeneas"
+        },
+        "ambiguous": {},
+        "expanded_query": "What route did Aeneas take to reach Italy after the fall of Troy?"
+      }
+    }
+  ]
+}

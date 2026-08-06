@@ -53,8 +53,13 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if args.command == "search":
         return run_search(args.query, args.mode, args.k)
+    if args.command == "eval":
+        from homeric_rag.eval import run_eval
 
-    print(f"'{args.command}' is not implemented yet (eval phase)", file=sys.stderr)
+        run_eval()
+        return 0
+
+    print(f"unknown command {args.command!r}", file=sys.stderr)
     return 2
 
 
