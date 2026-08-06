@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Model / embedding caches (large binaries, re-downloadable)
+.cache/
+models/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Note: data/raw/ and data/chunks.jsonl are committed on purpose.
+# The Gutenberg texts are public domain and small; committing them
+# makes the corpus build reproducible offline.
